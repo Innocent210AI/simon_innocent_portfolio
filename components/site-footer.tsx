@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import { CircuitBoard, Mail, Linkedin, ArrowUpRight } from 'lucide-react'
+import { CircuitBoard, Mail, ArrowUpRight } from 'lucide-react'
 import { nav, profile } from '@/lib/data'
+import { LinkedInIcon } from '@/components/icon'
 
 export function SiteFooter() {
   return (
@@ -33,7 +34,7 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-navy-foreground/15 bg-navy-foreground/5 px-3 py-2 text-sm transition-colors hover:bg-navy-foreground/10"
               >
-                <Linkedin className="size-4 text-primary" aria-hidden="true" />
+                <LinkedInIcon className="size-4 text-primary" />
                 LinkedIn
                 <ArrowUpRight className="size-3.5 text-navy-foreground/50" aria-hidden="true" />
               </a>
