@@ -87,7 +87,7 @@ export function Hero() {
               Email
             </a>
             <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-navy-foreground/70 transition-colors hover:text-navy-foreground">
-              <Linkedin className="size-4 text-primary" />
+              <LinkedInIcon className="size-4 text-primary" />
               LinkedIn
             </a>
           </div>
