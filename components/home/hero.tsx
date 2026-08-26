@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowRight, Compass, Mail, Linkedin, Download, Briefcase } from 'lucide-react'
+import { ArrowRight, Compass, Mail, Download, Briefcase } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { LinkedInIcon } from '@/components/icon'
 import { profile } from '@/lib/data'
 
 export function Hero() {
