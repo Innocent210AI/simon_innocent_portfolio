@@ -28,13 +28,13 @@ export default function JourneyPage() {
           />
           {timeline.map((item, i) => (
             <li key={item.stage} className="relative pl-12 pb-12 last:pb-0 sm:pl-16">
+              <span
+                className="absolute left-0 top-4 z-10 flex size-8 items-center justify-center rounded-full border border-primary/30 bg-card text-mono-label text-xs font-semibold text-primary sm:size-10"
+                aria-hidden="true"
+              >
+                {String(i + 1).padStart(2, '0')}
+              </span>
               <Reveal delay={i * 60}>
-                <span
-                  className="absolute left-0 top-1 flex size-8 items-center justify-center rounded-full border border-primary/30 bg-card text-mono-label text-xs font-semibold text-primary sm:size-10"
-                  aria-hidden="true"
-                >
-                  {String(i + 1).padStart(2, '0')}
-                </span>
                 <div className="rounded-2xl border border-border bg-card p-6">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
                     <h2 className="font-display text-lg font-semibold text-foreground">

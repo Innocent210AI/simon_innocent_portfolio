@@ -24,6 +24,15 @@ export function Reveal({
       setShown(true)
       return
     }
+
+    // If the element is already within (or above) the viewport on mount,
+    // reveal it immediately so content is never stuck hidden.
+    const rect = el.getBoundingClientRect()
+    if (rect.top < window.innerHeight) {
+      setShown(true)
+      return
+    }
+
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -33,10 +42,17 @@ export function Reveal({
           }
         })
       },
-      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' },
+      { threshold: 0, rootMargin: '0px 0px -40px 0px' },
     )
     obs.observe(el)
-    return () => obs.disconnect()
+
+    // Safety fallback: never leave content permanently invisible.
+    const fallback = window.setTimeout(() => setShown(true), 1200)
+
+    return () => {
+      obs.disconnect()
+      window.clearTimeout(fallback)
+    }
   }, [])
 
   return (
