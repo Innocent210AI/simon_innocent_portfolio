@@ -31,7 +31,7 @@ export default function HomePage() {
             </Reveal>
 
             <h1 className="mt-7 display text-arctic">
-              Innocent Simon | <WordCycle words={['Innovator', 'Technologist', 'STEM Educator']} />
+              Innocent Simon | <WordCycle words={['Innovator', 'Technologist', 'STEM Mentor']} />
             </h1>
 
             <Reveal delay={120} className="mt-8 max-w-xl body-lg text-mist/75">
