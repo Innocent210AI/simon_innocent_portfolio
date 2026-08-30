@@ -1,0 +1,157 @@
+export type Milestone = {
+  id: string;
+  period: string;
+  chapter: "Foundations" | "Training" | "Recognition" | "Global" | "Teaching" | "Now";
+  title: string;
+  location: string;
+  body: string;
+  tags?: string[];
+};
+
+export const timeline: Milestone[] = [
+  {
+    id: "early-childhood",
+    period: "Before primary school",
+    chapter: "Foundations",
+    title: "Building with what was around",
+    location: "Tanzania",
+    body: "Long before formal schooling, most of my time went into making objects from locally available materials and then modifying them to work better. No tools, no training — just the habit of taking an idea and turning it into a physical thing.",
+    tags: ["Curiosity", "Making"],
+  },
+  {
+    id: "primary-school",
+    period: "Primary school",
+    chapter: "Foundations",
+    title: "Model houses and first wiring",
+    location: "Tanzania",
+    body: "Toy cars, miniature houses, and household appliance models built from wood and scrap. The model houses got simple electrical connections that simulated residential wiring — my first contact with circuits as something you build rather than draw.",
+    tags: ["Electricity", "Design"],
+  },
+  {
+    id: "secondary-school",
+    period: "Secondary school",
+    chapter: "Foundations",
+    title: "Audio, antennas, and remote control",
+    location: "Tanzania",
+    body: "Projects became practical systems: audio and video recording, an active music speaker, an antenna support system, a data support network experiment, handmade drums and guitars, and remote-control vehicles. Alongside them, student clubs including EWURA CCC, the PCCB Anti-Corruption Club, and the Mwalimu Nyerere Research Chair in Pan-African Studies.",
+    tags: ["Electronics", "Leadership"],
+  },
+  {
+    id: "veta",
+    period: "2021 – 2024",
+    chapter: "Training",
+    title: "VETA electronics training",
+    location: "Kigoma RVTSC & Kipawa ICTC, Tanzania",
+    body: "Vocational training in electronics took the self-taught work and gave it structure: troubleshooting, prototyping, and system development. Levels I and II at Kigoma RVTSC, Electronics Engineering Level III at Kipawa ICTC. This is where the STEM Skills Training Model and the Military Security Robot were built.",
+    tags: ["Electronics Engineering", "Prototyping"],
+  },
+  {
+    id: "boot-camp-2020",
+    period: "2020",
+    chapter: "Recognition",
+    title: "Outstanding Individual Project Award",
+    location: "STEM Youth Boot Camp 5, Tanzania",
+    body: "Recognised for individual project development at STEM Youth Boot Camp 5 — the first time the work was measured against other young innovators.",
+    tags: ["Award"],
+  },
+  {
+    id: "boot-camp-2021",
+    period: "2021",
+    chapter: "Recognition",
+    title: "1st place, Scale-Up Project",
+    location: "STEM Youth Boot Camp, ProjeKt Inspire",
+    body: "The STEM Skills Training Model (power generation prototype) took first place in the Scale-Up Project category.",
+    tags: ["Award", "STEM Education"],
+  },
+  {
+    id: "security-robot",
+    period: "2022",
+    chapter: "Recognition",
+    title: "Military Security Robot Prototype",
+    location: "VETA, Tanzania",
+    body: "A remotely operated inspection robot built from locally sourced components, with LED signalling and an alarm system. It became the project that opened the most doors.",
+    tags: ["Robotics", "Prototype"],
+  },
+  {
+    id: "makisatu-sabasaba",
+    period: "May – July 2022",
+    chapter: "Recognition",
+    title: "MAKISATU national finalist and Saba Saba",
+    location: "Dodoma & Dar es Salaam, Tanzania",
+    body: "Selected as one of 88 finalists from more than 800 national applicants for MAKISATU, presenting the STEM Skills Training Model. In July, both prototypes were shown at the 46th Dar es Salaam International Trade Fair as part of the VETA exhibition — the VETA team received Second Place in the Skills Development category.",
+    tags: ["National finalist", "Exhibition"],
+  },
+  {
+    id: "liysf",
+    period: "August 2022",
+    chapter: "Global",
+    title: "London International Youth Science Forum",
+    location: "London, United Kingdom",
+    body: "Attended the 63rd LIYSF as a Clare Elwell Scholarship recipient and Young Scientist for Africa, representing ProjeKt Inspire, Tanzania, and Africa. Presented both prototypes at the Science Bazaar within a cohort of more than 500 young scientists from over 70 countries.",
+    tags: ["Scholarship", "International"],
+  },
+  {
+    id: "projekt-inspire",
+    period: "March 2023 – June 2025",
+    chapter: "Teaching",
+    title: "ProjeKt Inspire — STEM instructor and mentor",
+    location: "Kagera, Tanga, Arusha & Dar es Salaam, Tanzania",
+    body: "Two years of teaching: eight schools in Bukoba District reaching approximately 3,000 students, two schools in Arusha, Assistant Instructor in the Engineering class at STEM Youth Boot Camps 7 and 8, and Saturday STEM Sessions at STEM Park Dar es Salaam.",
+    tags: ["STEM Education", "Mentorship"],
+  },
+  {
+    id: "jamii-tech",
+    period: "2024",
+    chapter: "Teaching",
+    title: "Jamii Tech Incubation Program",
+    location: "Twende Innovation Social Center, Arusha",
+    body: "Selected as one of 15 participants from more than 100 applicants. Our three-person team built the Manual Rice Planter Machine and received seed funding support to continue development.",
+    tags: ["Incubation", "Agriculture"],
+  },
+  {
+    id: "jnia",
+    period: "January – March 2024",
+    chapter: "Training",
+    title: "Electronics Technician Intern",
+    location: "Julius Nyerere International Airport, Dar es Salaam",
+    body: "VETA Level 3 industrial training with the Tanzania Airports Authority: inspecting and troubleshooting X-ray inspection systems, power supply units, handheld metal detectors, digital telephone systems, and PA and microphone systems.",
+    tags: ["Industry", "Troubleshooting"],
+  },
+  {
+    id: "alfred",
+    period: "2025 – present",
+    chapter: "Now",
+    title: "Alfred University",
+    location: "Alfred, New York",
+    body: "Pursuing a Bachelor of Science in Business Administration. Electronics taught me how to build systems; business is teaching me how to make them sustainable.",
+    tags: ["Business Administration"],
+  },
+  {
+    id: "step-lab",
+    period: "January 2026 – present",
+    chapter: "Now",
+    title: "Engineering Lab Support Staff, STEP Lab",
+    location: "Alfred University",
+    body: "Supporting the Student Engineering Project Lab: maintaining a safe and organised workspace, contributing to STEAM-focused research initiatives, and supporting students working on their own engineering projects.",
+    tags: ["Engineering support"],
+  },
+  {
+    id: "arc",
+    period: "March 2026 – present",
+    chapter: "Now",
+    title: "President, Alfred Robotics Club",
+    location: "Alfred University",
+    body: "Coordinating club activities, supporting members exploring robotics and STEAM projects, and contributing to outreach and engagement.",
+    tags: ["Leadership", "Robotics"],
+  },
+];
+
+export const timelineChapters = [
+  "All",
+  "Foundations",
+  "Training",
+  "Recognition",
+  "Global",
+  "Teaching",
+  "Now",
+] as const;

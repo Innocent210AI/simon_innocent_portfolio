@@ -1,35 +1,37 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Inter, Space_Grotesk } from 'next/font/google'
-import { SiteHeader } from '@/components/site-header'
-import { SiteFooter } from '@/components/site-footer'
+import { Geist, JetBrains_Mono } from 'next/font/google'
+import { Header } from '@/components/site/header'
+import { Footer } from '@/components/site/footer'
+import { ElectricCursor } from '@/components/motion/electric-cursor'
+import { site } from '@/lib/content/site'
 import './globals.css'
 
-const inter = Inter({
+const geistSans = Geist({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-geist-sans',
   display: 'swap',
 })
 
-const spaceGrotesk = Space_Grotesk({
+const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
+  variable: '--font-jetbrains-mono',
   display: 'swap',
 })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://innocent-simon.vercel.app'),
   title: {
-    default: 'Innocent Simon — Innovator, STEM Educator & Electronics Technologist',
+    default: 'Innocent Simon — Innovator, Technologist & STEM Educator',
     template: '%s | Innocent Simon',
   },
-  description:
-    'Portfolio of Innocent Simon — innovator, STEM educator, and electronics technologist building practical solutions through electronics, robotics, engineering design, and innovation.',
+  description: site.intro,
   keywords: [
     'Innocent Simon',
     'STEM educator',
-    'electronics technician',
+    'electronics technologist',
     'robotics',
+    'renewable energy',
     'innovation',
     'engineering portfolio',
     'Tanzania',
@@ -37,17 +39,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Innocent Simon' }],
   openGraph: {
-    title: 'Innocent Simon — Innovator, STEM Educator & Electronics Technologist',
-    description:
-      'Building practical solutions through electronics, robotics, STEM education, engineering design, and innovation.',
+    title: 'Innocent Simon — Innovator, Technologist & STEM Educator',
+    description: site.intro,
     type: 'website',
+    images: [{ url: site.portrait ?? '/images/hero-robot.png' }],
   },
   generator: 'v0.app',
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light',
-  themeColor: '#1877f2',
+  colorScheme: 'dark',
+  themeColor: '#050914',
 }
 
 export default function RootLayout({
@@ -56,11 +58,18 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} bg-background`}>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${jetbrainsMono.variable} bg-background`}
+    >
       <body className="antialiased font-sans">
-        <SiteHeader />
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
+        <ElectricCursor />
+        <Header />
         <main id="main">{children}</main>
-        <SiteFooter />
+        <Footer />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
