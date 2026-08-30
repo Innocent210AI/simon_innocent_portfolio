@@ -85,7 +85,9 @@ export function ProjectVisual({
       <div className="pointer-events-none absolute inset-y-0 -left-1/3 w-1/3 bg-gradient-to-r from-transparent via-electric/12 to-transparent animate-scan" />
 
       <div className="absolute inset-0 flex flex-col justify-between p-5">
-        <span className="tech-label text-electric">{project.category}</span>
+        <span className="tech-label max-w-[calc(100%-5rem)] truncate text-electric">
+          {project.category}
+        </span>
         <div>
           <p className="tech-label text-steel">
             {project.year} · {project.status}
