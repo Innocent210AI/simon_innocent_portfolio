@@ -20,7 +20,6 @@ export default function HomePage() {
     <div className="surface-dark">
       {/* Hero */}
       <section className="relative overflow-hidden grain">
-        <div className="pointer-events-none absolute inset-0 grid-texture opacity-70" />
         <div className="pointer-events-none absolute inset-0 radial-glow" />
         <div className="pointer-events-none absolute inset-y-0 left-1/2 hidden w-px bg-gradient-to-b from-transparent via-electric/25 to-transparent lg:block" />
 
