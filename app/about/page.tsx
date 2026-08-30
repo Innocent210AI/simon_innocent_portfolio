@@ -13,10 +13,7 @@ import { snapshot, skillGroups, education, profile } from '@/lib/data'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'My name is Innocent Simon, and I am an innovator, technologist, and STEM advocate passionate about developing practical solutions to real-world challenges with a background in electronics and hands-on prototyping, I have worked on projects ranging from robotics and STEM education technologies to agricultural and renewable energy innovations.
-    Beyond technical development, I am passionate about leadership, entrepreneurship, and empowering young people through STEM education. My experiences in international programs, innovation initiatives, and leadership platforms have strengthened my commitment to creating solutions that make a positive impact in society.
-    Currently, I am pursuing Business Administration while continuing to develop engineering and technology projects. I believe that combining innovation, technology, leadership, and business crate powerful opportunities to transform ideas into sustainable solutions.
-    My long-term vision is to contribute to technological advancement, STEM education, and innovation-driven development that improves lives and creates opportunities for future generations.',
+    'Innocent Simon is an innovator, technologist, and STEM advocate developing practical solutions across robotics, STEM education, agriculture, and renewable energy — combining engineering, leadership, and entrepreneurship to create lasting impact.',
 }
 
 const values = [
