@@ -4,7 +4,7 @@ export const site = {
   location: 'Tanzania / New York',
   tagline: 'I build practical technology for people, learning, and progress.',
   intro:
-    'Innovator, technologist, and STEM educator working across electronics, robotics, renewable energy, education, and community-centered problem-solving.',
+    'Building practical solutions through electronics, robotics, STEM education, and innovation to address real-world challenges. From early childhood curiosity to developing robotics systems, STEM training models, and technology-driven solutions, my journey has been guided by creativity, hands-on learning, and a passion for solving real-world problems.',
   portrait: '/images/innocent-simon.jpg' as string | null,
   portraitAlt:
     'Portrait of Innocent Simon smiling outdoors in front of a brick university building, wearing a light-blue shirt, navy tie, and a red conference lanyard',
