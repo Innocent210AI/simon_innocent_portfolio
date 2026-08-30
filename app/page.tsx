@@ -72,20 +72,7 @@ export default function HomePage() {
               subcaption="Electronics · Robotics · STEM education"
             />
 
-            <div className="absolute -left-6 top-8 hidden w-40 overflow-hidden rounded-panel border border-electric/25 bg-navy-deep shadow-[0_24px_60px_-24px_rgba(0,0,0,0.9)] sm:block lg:-left-16 lg:w-52">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={siteImages.heroRobot || '/placeholder.svg'}
-                alt="Illustrative render of a remotely operated inspection robot, referencing the Military Security Robot prototype"
-                loading="lazy"
-                decoding="async"
-                className="aspect-square w-full object-cover"
-              />
-              <div className="flex items-center justify-between gap-2 border-t border-white/10 px-3 py-2">
-                <span className="tech-label text-electric">Robotics</span>
-                <span className="text-[10px] uppercase tracking-[0.16em] text-steel">Render</span>
-              </div>
-            </div>
+
           </Reveal>
         </div>
       </section>
