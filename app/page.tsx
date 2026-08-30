@@ -21,7 +21,6 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden grain">
         <div className="pointer-events-none absolute inset-0 radial-glow" />
-        <div className="pointer-events-none absolute inset-y-0 left-1/2 hidden w-px bg-gradient-to-b from-transparent via-electric/25 to-transparent lg:block" />
 
         <div className="shell relative grid gap-14 pb-20 pt-32 lg:grid-cols-[1.15fr_0.85fr] lg:items-end lg:gap-16 lg:pb-28 lg:pt-44">
           <div>
