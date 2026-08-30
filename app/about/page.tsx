@@ -42,7 +42,7 @@ export default function AboutPage() {
               <p>
                 I am now at Alfred University pursuing a Bachelor of Science in Business
                 Administration. My engineering foundation is vocational and practical, not academic
-                — and pairing it with business is deliberate. Good prototypes need organisations
+                and pairing it with business is deliberate. Good prototypes need organisations
                 around them to survive.
               </p>
             </Reveal>
