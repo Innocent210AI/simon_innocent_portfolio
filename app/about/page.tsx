@@ -53,11 +53,8 @@ export default function AboutPage() {
           <Reveal className="order-2 lg:order-1">
             <div className="prose-portfolio space-y-5 text-pretty text-base leading-relaxed text-muted-foreground">
               <p>
-                My name is <span className="font-semibold text-foreground">Innocent Simon</span>, an
-                innovator, STEM educator, and electronics technologist driven by a lifelong passion
-                for building things that matter. From an early age I was fascinated with how things
-                work — taking apart and rebuilding objects using whatever materials were available
-                around me.
+                My name is <span className="font-semibold text-foreground">Innocent Simon</span>, and I am an Innovator, technologist and STEM advocate passionate about developing practical solutions to real-world challenges.
+                With a background in electronics and hands-on prototyping, I have worked on projects ranging from robotics and STEM education technologies to agricultural and renewable energy innovations.
               </p>
               <p>
                 That curiosity grew into a formal foundation in electronics engineering through
