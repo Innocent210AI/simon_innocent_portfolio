@@ -24,7 +24,7 @@ export default function AboutPage() {
           <div>
             <Reveal className="tech-label text-electric">About</Reveal>
             <h1 className="mt-6 display text-arctic">
-              About Me
+              "The world is all about what you are" --Einsten--
             </h1>
             <Reveal delay={120} className="mt-8 space-y-5 body-lg text-mist/75">
               <p>
