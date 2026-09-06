@@ -40,10 +40,7 @@ export default function AboutPage() {
                 My STEM and innovation journey has also provided international opportunities. In 2022, I received the Clare Elwell Scholarship as a Young Scientist for Africa (YoSA) to participate in the 63rd London International Youth Science Forum (LIYSF) and represent ProjeKt Inspire, Tanzania, and Africa. I also participated in the Global Innovation Field Trip (GIFT) from 2021 to 2023, presenting topics related to innovation, robotics, artificial intelligence, STEM, and climate action.
               </p>
               <p>
-                I am now at Alfred University pursuing a Bachelor of Science in Business
-                Administration. My engineering foundation is vocational and practical, not academic
-                and pairing it with business is deliberate. Good prototypes need organisations
-                around them to survive.
+                As I move forward, I continue developing my technical and innovation interests while expanding my knowledge of business, leadership, and entrepreneurship. My long-term goal is to combine these areas to develop practical technologies, create sustainable solutions to real-world challenges, and contribute to technological advancement and STEM education.
               </p>
             </Reveal>
           </div>
