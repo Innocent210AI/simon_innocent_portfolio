@@ -31,7 +31,7 @@ export default function AboutPage() {
                 My name is Innocent Simon, and I am currently pursuing a Bachelor of Science in Business Administration at Alfred University, Building on a strong vocational background in Electronics through Tanzania's Vocational Education and Training Authority (VETA). My interests bring together technology, hands-on innovation, STEM education, leadership and entrepreneurship.
               </p> 
               <p>
-                My innovation journey has involved designing and developing projects in robotics, electronics, STEM education technologies, and renewable energy. These experiences have strengthened my skills in prototyping, technica
+                My innovation journey has involved designing and developing projects in robotics, electronics, STEM education technologies, and renewable energy. These experiences have strengthened my skills in prototyping, technical problem-solving
               </p>
               <p>
                 Vocational training at VETA gave that instinct a structure: electronics,
