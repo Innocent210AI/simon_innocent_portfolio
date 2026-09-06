@@ -34,10 +34,7 @@ export default function AboutPage() {
                 My innovation journey has involved designing and developing projects in robotics, electronics, STEM education technologies, and renewable energy. These experiences have strengthened my skills in prototyping, technical problem-solving, creativity and turning ideas into practical solutions.
               </p>
               <p>
-                Vocational training at VETA gave that instinct a structure: electronics,
-                troubleshooting, prototyping, system development. It also gave me the two projects
-                that took me to a national competition in Dodoma, a trade fair in Dar es Salaam, and
-                the Science Bazaar in London.
+                Through ProjekT Inspire, I participated in STEM Youth Bootcamps and earned 1st place in 2021 Scale-Up Project presentation for my STEM Skills Training Model
               </p>
               <p>
                 I am now at Alfred University pursuing a Bachelor of Science in Business
