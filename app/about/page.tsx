@@ -34,7 +34,7 @@ export default function AboutPage() {
                 My innovation journey has involved designing and developing projects in robotics, electronics, STEM education technologies, and renewable energy. These experiences have strengthened my skills in prototyping, technical problem-solving, creativity and turning ideas into practical solutions.
               </p>
               <p>
-                Through ProjekT Inspire, I participated in STEM Youth Bootcamps and earned 1st place in 2021 Scale-Up Project presentation for my STEM Skills Training Model
+                Through ProjekT Inspire, I participated in STEM Youth Bootcamps and earned 1st place in 2021 Scale-Up Project presentation for my STEM Skills Training Model.
               </p>
               <p>
                 I am now at Alfred University pursuing a Bachelor of Science in Business
