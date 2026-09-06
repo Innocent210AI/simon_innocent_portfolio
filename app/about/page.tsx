@@ -34,7 +34,7 @@ export default function AboutPage() {
                 My innovation journey has involved designing and developing projects in robotics, electronics, STEM education technologies, and renewable energy. These experiences have strengthened my skills in prototyping, technical problem-solving, creativity and turning ideas into practical solutions.
               </p>
               <p>
-                Through ProjekT Inspire, I participated in STEM Youth Bootcamps and earned 1st place in 2021 Scale-Up Project presentation for my STEM Skills Training Model. 
+                Through ProjekT Inspire, I participated in STEM Youth Bootcamps and earned 1st place in 2021 Scale-Up Project presentation for my STEM Skills Training Model. I also advanced to MAKISATU, Tanzania's National Competition on Science, Technology and Innovation, wher I presented my Innovation where I presented my Innovation at the national level. In 2022, I also participated as a VETA student inventor at the 46th Dar es Salaam International Trade Fair (Saba saba), representing VETA alongside other student innovators in an innovation exhibition and public demonstration.
               </p>
               <p>
                 I am now at Alfred University pursuing a Bachelor of Science in Business
