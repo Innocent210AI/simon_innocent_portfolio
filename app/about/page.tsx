@@ -26,7 +26,7 @@ export default function AboutPage() {
             <h1 className="mt-6 display text-arctic">
               
             </h1>
-            <Reveal delay={120} className="mt-8 space-y-5 body-lg text-mist/75">
+            <Reveal delay={120} className="mt-8 space-y-5 body-lg text-mist/75 text-2xl">
               <p>
                 My name is Innocent Simon, and I am currently pursuing a Bachelor of Science in Business Administration at Alfred University, Building on a strong vocational background in Electronics through Tanzania's Vocational Education and Training Authority (VETA). My interests bring together technology, hands-on innovation, STEM education, leadership and entrepreneurship.
               </p> 
