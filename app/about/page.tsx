@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className="pointer-events-none absolute inset-0 radial-glow" />
         <div className="shell relative grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <Reveal className="tech-label text-electric text-4xl">About</Reveal>
+            <Reveal className="tech-label text-electric text-6xl">About</Reveal>
             <h1 className="mt-6 display text-arctic">
               
             </h1>
