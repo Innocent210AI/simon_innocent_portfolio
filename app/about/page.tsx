@@ -28,10 +28,10 @@ export default function AboutPage() {
             </h1>
             <Reveal delay={120} className="mt-8 space-y-5 body-lg text-mist/75">
               <p>
-                Before I started primary school I was already making things out of whatever was
-                lying around, then modifying them until they worked better. That habit never left.
-                It moved from wooden toy cars to model houses with real wiring, then to audio
-                systems, antennas, and remote-control vehicles in secondary school.
+                My name is Innocent Simon, and I am currently pursuing a Bachelor of Science in Business Administration at Alfred University, Building on a strong vocational background in Electronics through Tanzania's Vocational Education and Training Authority (VETA). My interests bring together technology, hands-on innovation, STEM education, leadership and entrepreneurship.
+              </p> 
+              <p>
+                My STEM and innovation journey has also provided international opportunities. In 2022, I received the Clare Elwell Scholarship as a  Young Scientist for Africa (YoSA) to particiate in the 63rd London International Youth Science Forum (LIYSF) and represent ProjeKt Inspire, Tanzania and Africa. I also participated in the Global Innovation Field Trip (GIFT)  from 2021 to 2023 
               </p>
               <p>
                 Vocational training at VETA gave that instinct a structure: electronics,
