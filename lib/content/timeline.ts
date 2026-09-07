@@ -28,9 +28,6 @@ export const timeline: Milestone[] = [
     tags: ["Electricity", "Design"],
   },
   {
-    
-  }
-  {
     id: "secondary-school",
     period: "Secondary school",
     chapter: "Foundations",
