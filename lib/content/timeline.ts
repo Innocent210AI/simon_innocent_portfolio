@@ -15,7 +15,7 @@ export const timeline: Milestone[] = [
     chapter: "Foundations",
     title: "Building with what was around",
     location: "Tanzania",
-    body: "My innovation journey bergan long before I entered primary school. As a child, I was naturally curious about how things .",
+    body: "My innovation journey bergan long before I entered primary school. As a child, I was naturally curious about how things things worked and enjoyed creating different objects using locally available  .",
     tags: ["Curiosity", "Making"],
   },
   {
