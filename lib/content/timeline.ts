@@ -19,7 +19,7 @@ export const timeline: Milestone[] = [
     tags: ["Curiosity", "Making"],
   },
   {
-    id: "primary-school",
+    id: "Before Primary School",
     period: "Primary school",
     chapter: "Foundations",
     title: "Model houses and first wiring",
