@@ -24,7 +24,7 @@ export const timeline: Milestone[] = [
     chapter: "Foundations",
     title: "Model houses and first wiring",
     location: "Tanzania",
-    body: "Toy cars, miniature houses, and household appliance models built from wood and scrap. The model houses got simple electrical connections that simulated residential wiring — my first contact with circuits as something you build rather than draw.",
+    body: "Before starting formal education, I spent much of my time exploring, building, and Toy cars, miniature houses, and household appliance models built from wood and scrap. The model houses got simple electrical connections that simulated residential wiring — my first contact with circuits as something you build rather than draw.",
     tags: ["Electricity", "Design"],
   },
   {
