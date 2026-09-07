@@ -27,7 +27,9 @@ export const timeline: Milestone[] = [
     body: "Before starting formal education, I spent much of my time exploring, building, and experimenting with simple materials around me. I enjoyed creating objects and finding ways to improve or modify them. These experiences laid the foundation for my future interest in technology, engineering, and innovation.",
     tags: ["Electricity", "Design"],
   },
-  
+  {
+    
+  }
   {
     id: "secondary-school",
     period: "Secondary school",
