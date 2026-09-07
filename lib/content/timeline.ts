@@ -15,7 +15,7 @@ export const timeline: Milestone[] = [
     chapter: "Foundations",
     title: "Building with what was around",
     location: "Tanzania",
-    body: "Long before formal schooling, most of my time went into making objects from locally available materials and then modifying them to work better. No tools, no training — just the habit of taking an idea and turning it into a physical thing.",
+    body: "My innovation journey bergan long before I entered primary school. As a child, I was naturally curious about how things .",
     tags: ["Curiosity", "Making"],
   },
   {
