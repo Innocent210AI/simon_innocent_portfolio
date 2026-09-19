@@ -85,7 +85,7 @@ export const timeline: Milestone[] = [
           My participation in these clubs gave me opportunities to develop
           leadership, teamwork, communication, and coordination skills. Working with
           other students also helped me understand the importance of collaboration,
-          responsibility, and shared problem-solving.
+          responsibility, and shared problem-solving. 
         </p>
 
         <p className="text-base md:text-lg leading-relaxed">
