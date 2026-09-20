@@ -107,15 +107,45 @@ export const timeline: Milestone[] = [
 
   tags: ["Electronics", "Leadership"],
 },
-  {
-    id: "veta",
-    period: "2021 – 2024",
-    chapter: "Training",
-    title: "VETA electronics training",
-    location: "Kigoma RVTSC & Kipawa ICTC, Tanzania",
-    body: "Vocational training in electronics took the self-taught work and gave it structure: troubleshooting, prototyping, and system development. Levels I and II at Kigoma RVTSC, Electronics Engineering Level III at Kipawa ICTC. This is where the STEM Skills Training Model and the Military Security Robot were built.",
-    tags: ["Electronics Engineering", "Prototyping"],
-  },
+{
+  id: "veta",
+  period: "2021 – 2024",
+  chapter: "Training",
+  title: "VETA Electronics Training",
+  location: "Kigoma RVTSC & Kipawa ICTC, Tanzania",
+
+  body: (
+    <div className="space-y-6">
+      <p>
+  My technical abilities expanded significantly through vocational training
+  in Electronics through the Vocational Education and Training Authority
+  (VETA). I completed Levels I and II at Kigoma RVTSC and Electronics
+  Engineering Level III at Kipawa ICTC, gaining hands-on experience in
+  electronics, troubleshooting, prototyping, and system development.
+</p>
+
+      <p>
+        Among the projects I developed were:
+      </p>
+
+      <ul className="list-disc pl-8 space-y-1">
+        <li>
+          STEM Skills Training Model (Power Generation Prototype)
+        </li>
+        <li>
+          Military Security Robot Prototype
+        </li>
+      </ul>
+
+      <p>
+        These projects allowed me to combine theoretical knowledge with practical
+        application while addressing educational and technological challenges.
+      </p>
+    </div>
+  ),
+
+  tags: ["Electronics Engineering", "Prototyping"],
+},
   {
     id: "boot-camp-2020",
     period: "2020",
