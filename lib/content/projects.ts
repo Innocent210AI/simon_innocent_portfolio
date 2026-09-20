@@ -578,95 +578,175 @@ export const projects: Project[] = [
   },
 },
   {
-    slug: "tesla-coil",
-    title: "Tesla Coil",
-    category: "STEM Education",
-    year: "2025",
-    type: "Individual project",
-    status: "Functional prototype",
-    featured: "support",
-    purpose:
-      "An educational Tesla coil that turns electromagnetic induction and wireless energy transfer into something students can watch happen.",
-    summary:
-      "Designed, wound, and tested independently, then demonstrated at a primary school exhibition.",
-    skills: [
-      "Circuit design",
-      "Coil winding",
-      "Soldering",
-      "Testing and troubleshooting",
-      "Educational demonstration",
+  slug: "tesla-coil",
+  title: "Tesla Coil Prototype",
+  category: "STEM Education Technologies",
+  year: "2025",
+  type: "Educational Electronics Prototype",
+  status: "Functional Prototype",
+  featured: "support",
+
+  purpose:
+    "An educational electronics project designed to demonstrate fundamental concepts of electricity, magnetism, electromagnetic induction, and wireless energy transfer through hands-on STEM learning.",
+
+  summary:
+    "Designed, constructed, and tested independently as an interactive STEM demonstration prototype, then showcased during a primary school exhibition where students were able to observe electrical and electromagnetic principles in action.",
+
+  skills: [
+    "Electronics Design",
+    "Circuit Construction",
+    "Electromagnetism Applications",
+    "STEM Education Development",
+    "Prototype Development",
+    "Technical Problem Solving",
+    "Soldering and Assembly",
+    "Testing and Troubleshooting",
+    "Educational Demonstration",
+    "Public Presentation",
+  ],
+
+  intendedApplication:
+    "An educational demonstration tool for helping students explore electricity, magnetism, electromagnetic induction, electrical energy transfer, and circuit behavior through practical observation.",
+
+  limitations:
+    "The project is an educational prototype rather than a classroom-certified product. Because Tesla coil demonstrations involve elevated voltages and electromagnetic fields, the prototype requires appropriate supervision and safety precautions. Further development would be required to improve protective features, durability, documentation, and suitability for repeated classroom use.",
+
+  caseStudy: {
+    context: [
+      "The Tesla Coil Prototype is an educational electronics project designed to demonstrate fundamental concepts of electricity, magnetism, electromagnetic induction, and wireless energy transfer through hands-on STEM learning.",
+
+      "The prototype provides students with an engaging and interactive way to explore scientific principles that are often taught primarily through textbooks, diagrams, and classroom theory.",
+
+      "By observing the Tesla Coil in operation, students can better understand how electrical energy behaves and how electromagnetic fields can be used to transfer energy.",
+
+      "The inspiration for this project came from my passion for practical STEM education and my interest in electronics and electrical systems.",
+
+      "Throughout my educational journey, I noticed that many students found topics such as electricity, magnetism, and electromagnetic induction difficult to understand because they were often presented only through diagrams and theoretical explanations.",
+
+      "I wanted to create a learning tool that could transform these abstract concepts into something students could directly observe and interact with.",
+
+      "This led me to design and build the Tesla Coil Prototype as an educational demonstration model that makes electrical science more engaging, understandable, and memorable.",
     ],
-    intendedApplication: "Classroom demonstration of electricity and magnetism.",
-    limitations:
-      "High-voltage demonstration hardware that requires supervision; safety hardening is part of planned future work.",
-    caseStudy: {
-      context: [
-        "Electricity, magnetism, and induction are commonly taught through diagrams alone. A live demonstration changes how much of it sticks.",
-      ],
-      problem: [
-        "Limited access to practical demonstrations.",
-        "Difficulty visualising electromagnetic principles.",
-        "Reliance on memorisation instead of understanding.",
-      ],
-      solution: [
-        "A simplified Tesla coil that lets learners see primary and secondary coil behaviour, magnetic fields, and energy transfer in operation — with a fluorescent lamp as the visible indicator.",
-      ],
-      process: [
-        {
-          title: "01 — Research and concept",
-          items: [
-            "Studied Tesla coil operating principles.",
-            "Developed a simplified design suitable for learning environments.",
-          ],
-        },
-        {
-          title: "02 — Circuit design",
-          items: [
-            "Designed the circuit layout and selected components.",
-            "Planned the primary and secondary coil configuration.",
-          ],
-        },
-        {
-          title: "03 — Construction",
-          items: [
-            "Wound and assembled the coils.",
-            "Installed transistor, resistor, heat sink, and switching components.",
-            "Built the supporting structure and protective housing.",
-          ],
-        },
-        {
-          title: "04 — Testing and optimisation",
-          items: [
-            "Tested electrical performance.",
-            "Refined the build for reliability and demonstration clarity.",
-          ],
-        },
-      ],
-      tools: [
-        {
-          title: "Electronic components",
-          items: [
-            "Transistor",
-            "Resistor",
-            "Heat sink",
-            "Copper wire",
-            "Switch",
-          ],
-        },
-        {
-          title: "Structure and demonstration",
-          items: ["PVC pipe", "Protective housing", "Fluorescent lamp"],
-        },
-      ],
-      outcome: [
-        "Showcased during a primary school exhibition where students observed the principles in action.",
-      ],
-      future: [
-        "Enhanced safety features and more durable construction.",
-        "Classroom-ready STEM kit versions with expanded documentation.",
-      ],
-    },
+
+    problem: [
+      "Many students struggle to fully understand electrical and magnetic concepts when they are taught primarily through theory.",
+
+      "Common challenges include limited access to practical STEM demonstrations, difficulty visualizing electromagnetic principles, reduced student engagement during science lessons, and reliance on memorization instead of understanding.",
+
+      "These challenges can limit students' interest and confidence in STEM subjects.",
+    ],
+
+    solution: [
+      "To address these challenges, I developed a Tesla Coil Prototype that demonstrates electrical and electromagnetic principles through live experimentation and observation.",
+
+      "The prototype allows students to explore concepts such as primary and secondary coils, electromagnetic induction, magnetic fields, electrical energy transfer, and circuit behavior and component interaction.",
+
+      "By observing these concepts in action, students can gain a deeper understanding of how electrical systems operate beyond theoretical explanations.",
+    ],
+
+    process: [
+      {
+        title: "01 — Research and Concept Development",
+        items: [
+          "Studied Tesla Coil operating principles.",
+          "Explored educational applications of electromagnetic demonstrations.",
+          "Developed a simplified design suitable for STEM learning environments.",
+        ],
+      },
+      {
+        title: "02 — Circuit Design",
+        items: [
+          "Designed the electronic circuit layout.",
+          "Selected appropriate electronic components.",
+          "Planned the primary and secondary coil configuration.",
+        ],
+      },
+      {
+        title: "03 — Prototype Construction",
+        items: [
+          "Wound and assembled the coils.",
+          "Installed the transistor, resistor, heat sink, and switching components.",
+          "Constructed the supporting structure and protective housing.",
+        ],
+      },
+      {
+        title: "04 — Testing and Optimization",
+        items: [
+          "Tested electrical performance.",
+          "Evaluated demonstration effectiveness.",
+          "Refined the prototype to improve reliability and educational value.",
+        ],
+      },
+    ],
+
+    contribution: [
+      "I independently designed and developed the Tesla Coil Prototype.",
+      "Circuit design.",
+      "Component selection.",
+      "Coil winding and assembly.",
+      "Electronics integration.",
+      "Prototype construction.",
+      "Testing and troubleshooting.",
+      "Educational demonstration preparation.",
+    ],
+
+    tools: [
+      {
+        title: "Electronic Components",
+        items: [
+          "Transistor",
+          "Resistor",
+          "Heat Sink",
+          "Copper Wire",
+          "Switch",
+          "Various Electronic Components",
+        ],
+      },
+      {
+        title: "Structural Materials",
+        items: [
+          "PVC Pipe",
+          "Protective Housing Materials",
+          "Support Structures",
+        ],
+      },
+      {
+        title: "Demonstration Equipment",
+        items: [
+          "Fluorescent Lamp",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the key challenges was ensuring that the prototype effectively demonstrated complex electromagnetic concepts while remaining suitable for educational use.",
+
+      "Achieving reliable performance required careful component selection, repeated testing, and continuous refinement throughout the development process.",
+
+      "The project also required creativity in utilizing available materials and resources during construction.",
+    ],
+
+    outcome: [
+      "The Tesla Coil Prototype successfully demonstrated electrical and electromagnetic principles through practical experimentation and interactive learning.",
+
+      "The project was showcased during a primary school exhibition, where students were able to observe scientific concepts in action and engage with STEM topics through hands-on demonstrations.",
+
+      "The prototype helped stimulate curiosity, encourage scientific thinking, and make electrical engineering concepts more accessible to young learners.",
+
+      "The experience further reinforced the value of practical STEM education in improving student engagement and understanding.",
+    ],
+
+    future: [
+      "Enhance safety features.",
+      "Improve demonstration capabilities.",
+      "Use more durable construction materials.",
+      "Develop classroom-ready STEM kit versions.",
+      "Expand educational documentation and supporting learning materials.",
+      "Explore collaboration with STEM education organizations and technology companies.",
+      "Continue developing the concept toward scalable educational kits that provide engaging hands-on learning experiences in electricity, electronics, and engineering.",
+    ],
   },
+},
   {
     slug: "wind-energy-prototype",
     title: "Wind Energy Prototype",
