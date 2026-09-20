@@ -1,7 +1,13 @@
 export type Milestone = {
   id: string;
   period: string;
-  chapter: "Foundations" | "Training" | "Recognition" | "Global" | "Teaching" | "Now";
+  chapter:
+    | "Foundations"
+    | "Training"
+    | "Recognition"
+    | "Global"
+    | "Teaching"
+    | "Now";
   title: string;
   location: string;
   body: string;
@@ -33,11 +39,11 @@ export const timeline: Milestone[] = [
     chapter: "Foundations",
     title: "Audio, antennas, and remote control",
     location: "Tanzania",
-    body: "export default function SecondarySchoolJourney() {
+    body: `export default function SecondarySchoolJourney() {
   return (
     <section className="w-full py-12">
       <div className="max-w-4xl mx-auto px-6">
-        
+
         <p className="text-base md:text-lg leading-relaxed mb-6">
           As I progressed through secondary school, my projects became more
           advanced and practical. During this period, I worked on several creative and
@@ -85,7 +91,7 @@ export const timeline: Milestone[] = [
           My participation in these clubs gave me opportunities to develop
           leadership, teamwork, communication, and coordination skills. Working with
           other students also helped me understand the importance of collaboration,
-          responsibility, and shared problem-solving. 
+          responsibility, and shared problem-solving.
         </p>
 
         <p className="text-base md:text-lg leading-relaxed">
@@ -95,12 +101,12 @@ export const timeline: Milestone[] = [
       </div>
     </section>
   );
-}
-    
- .",
+}`,
     tags: ["Electronics", "Leadership"],
   },
-  {
+
+  // Continue your remaining milestones here...
+];
     id: "veta",
     period: "2021 – 2024",
     chapter: "Training",
