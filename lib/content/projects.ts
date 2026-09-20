@@ -747,96 +747,176 @@ export const projects: Project[] = [
     ],
   },
 },
-  {
-    slug: "wind-energy-prototype",
-    title: "Wind Energy Prototype",
-    category: "Renewable Energy",
-    year: "2025",
-    type: "Individual project",
-    status: "Functional prototype",
-    featured: "support",
-    purpose:
-      "A teaching model that follows wind-generated electricity from turbine blade to stored energy to the consumer.",
-    summary:
-      "Built from PVC, cardboard, DC motors, and a battery store, with an air blower simulating wind for demonstrations.",
-    skills: [
-      "Mechanical design",
-      "Electronics assembly",
-      "Renewable energy concepts",
-      "Prototype construction",
+ {
+  slug: "wind-energy-prototype",
+  title: "Wind Energy Prototype",
+  category: "Renewable Energy & Sustainability",
+  year: "2025",
+  type: "STEM Education Prototype",
+  status: "Functional Prototype",
+  featured: "support",
+
+  purpose:
+    "An educational STEM model designed to demonstrate how renewable energy can be generated from wind and delivered to end users through an interactive and practical learning experience.",
+
+  summary:
+    "Designed and developed as an interactive teaching model that demonstrates how wind rotates turbine blades, how mechanical energy is converted into electrical energy, how energy can be stored, and how electricity can be delivered to consumers.",
+
+  skills: [
+    "Renewable Energy Concepts",
+    "Engineering Design",
+    "STEM Education Development",
+    "Prototype Construction",
+    "Electronics Assembly",
+    "Technical Drawing",
+    "Problem Solving",
+    "Creative Design",
+    "Educational Technology Development",
+    "Public Demonstration and Presentation",
+  ],
+
+  intendedApplication:
+    "A hands-on STEM classroom demonstration tool for helping students understand wind power generation, energy conversion, energy storage, electricity transmission, and renewable energy systems.",
+
+  limitations:
+    "The Wind Energy Prototype is a scale educational teaching model rather than a system engineered for real-world electrical power generation. Further development would be required to improve turbine efficiency, durability, electrical performance, classroom usability, and scalability.",
+
+  caseStudy: {
+    context: [
+      "The Wind Energy Prototype is an educational STEM model designed to demonstrate how renewable energy can be generated from wind and delivered to end users.",
+
+      "The project helps students understand the basic principles of wind power generation through hands-on learning and visual demonstration. It illustrates how wind energy can be converted into electrical energy and used to power simple electrical devices.",
+
+      "The prototype was developed as an interactive teaching tool to make renewable energy concepts easier to understand for students studying science, technology, engineering, and mathematics (STEM).",
+
+      "The inspiration for this project came from my passion for practical STEM education and sustainable energy solutions.",
+
+      "Throughout my educational journey, I observed that many students learned about renewable energy primarily through textbooks and classroom explanations. While students could memorize definitions and diagrams, many had limited opportunities to see how renewable energy systems work in practice.",
+
+      "I wanted to create a hands-on learning model that would allow students to visually experience how wind energy is captured, converted into electricity, and delivered for use.",
+
+      "This led me to design and build the Wind Energy Prototype as a practical educational tool that simplifies complex renewable energy concepts and makes them easier for students to understand.",
     ],
-    intendedApplication: "STEM classroom demonstration of renewable energy systems.",
-    limitations:
-      "A scale teaching model; it is not sized or engineered for real power generation.",
-    caseStudy: {
-      context: [
-        "Students can memorise how a wind turbine works long before they ever see energy move through one.",
-      ],
-      problem: [
-        "Limited access to practical renewable energy learning resources.",
-        "Difficulty visualising how turbines generate electricity.",
-        "Reduced engagement when the topic is taught through theory alone.",
-      ],
-      solution: [
-        "A model where learners watch wind rotate the blades, mechanical energy convert to electrical energy, energy get stored, and power reach a consumer display section.",
-      ],
-      process: [
-        {
-          title: "01 — Research and concept",
-          items: [
-            "Studied wind energy fundamentals.",
-            "Simplified the system for classroom use.",
-          ],
-        },
-        {
-          title: "02 — System design",
-          items: [
-            "Designed turbine blades, tower structure, and miniature power station.",
-            "Planned electrical connections and the demonstration layout.",
-          ],
-        },
-        {
-          title: "03 — Construction",
-          items: [
-            "Built the turbine structure and installed DC motors and electrical components.",
-            "Constructed transmission pathways and the consumer display.",
-            "Integrated energy storage.",
-          ],
-        },
-        {
-          title: "04 — Testing",
-          items: [
-            "Simulated wind conditions with a blower.",
-            "Tested generation and energy flow, then improved visual clarity.",
-          ],
-        },
-      ],
-      tools: [
-        {
-          title: "Components",
-          items: [
-            "DC motors",
-            "LED lights",
-            "Electrical wiring",
-            "Battery storage system",
-          ],
-        },
-        {
-          title: "Materials",
-          items: ["PVC pipes", "Cardboard structures", "Turbine blades", "Support towers"],
-        },
-      ],
-      challenges: [
-        "Keeping the model technically accurate while staying simple enough for students to read at a glance.",
-      ],
-      outcome: [
-        "A working demonstration model used to explain renewable energy generation in STEM sessions.",
-      ],
-      future: [
-        "More durable materials and a version suited to repeated classroom handling.",
-      ],
-    },
+
+    problem: [
+      "Many students struggle to understand renewable energy systems because they are often taught through theory alone.",
+
+      "Common challenges include limited access to practical STEM learning resources, difficulty visualizing how wind turbines generate electricity, lack of interactive renewable energy demonstrations in schools, and reduced student engagement when learning through theory alone.",
+
+      "These challenges can make renewable energy concepts difficult to understand and apply.",
+    ],
+
+    solution: [
+      "To address these challenges, I developed a Wind Energy Prototype that demonstrates the complete journey of wind-generated electricity.",
+
+      "The model allows students to observe how wind rotates turbine blades, how mechanical energy is converted into electrical energy, how electricity can be stored, and how energy is delivered to consumers.",
+
+      "By interacting with the prototype, students can gain a clearer understanding of renewable energy systems and sustainable power generation.",
+    ],
+
+    process: [
+      {
+        title: "01 — Research and Concept Development",
+        items: [
+          "Studied the fundamentals of wind energy systems.",
+          "Explored ways to simplify renewable energy concepts for classroom use.",
+          "Developed an educational model suitable for STEM learning environments.",
+        ],
+      },
+      {
+        title: "02 — System Design",
+        items: [
+          "Designed the wind turbine blades.",
+          "Designed the supporting tower structure.",
+          "Designed the miniature power station and energy storage section.",
+          "Planned the electrical connections and demonstration layout.",
+        ],
+      },
+      {
+        title: "03 — Prototype Construction",
+        items: [
+          "Built the turbine structure.",
+          "Installed DC motors and electrical components.",
+          "Constructed transmission pathways and consumer display sections.",
+          "Integrated energy storage components.",
+        ],
+      },
+      {
+        title: "04 — Testing and Demonstration",
+        items: [
+          "Simulated wind conditions using an air blower.",
+          "Tested electricity generation and energy flow.",
+          "Improved the model to enhance educational effectiveness and visual presentation.",
+        ],
+      },
+    ],
+
+    contribution: [
+      "I independently designed and developed the Wind Energy Prototype.",
+      "Designed the turbine blades.",
+      "Designed the support towers.",
+      "Designed the power station structure.",
+      "Assembled electrical components.",
+      "Constructed the demonstration model.",
+      "Tested and refined prototype performance.",
+    ],
+
+    tools: [
+      {
+        title: "Components",
+        items: [
+          "DC Motors",
+          "LED Lights",
+          "Electrical Wiring",
+          "Battery Storage System",
+          "Electronic Components",
+        ],
+      },
+      {
+        title: "Construction Materials",
+        items: [
+          "PVC Pipes",
+          "Cardboard Structures",
+          "Turbine Blades",
+          "Support Towers",
+        ],
+      },
+      {
+        title: "Demonstration Equipment",
+        items: [
+          "Air Blower for Wind Simulation",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the main challenges was creating a prototype that could clearly demonstrate renewable energy principles while remaining simple enough for students to understand.",
+
+      "Balancing technical accuracy, educational value, and available materials required creativity and continuous refinement throughout the development process.",
+    ],
+
+    outcome: [
+      "The project successfully demonstrated how wind energy can be converted into electricity and delivered to end users.",
+
+      "The prototype provided students with a practical learning experience that complemented classroom instruction and increased engagement with STEM subjects.",
+
+      "The project was also showcased during a primary school exhibition, where it helped introduce students to renewable energy concepts through hands-on demonstration and interactive learning.",
+
+      "The experience reinforced the importance of practical STEM education in developing curiosity, creativity, and problem-solving skills among young learners.",
+    ],
+
+    future: [
+      "Enhance turbine efficiency.",
+      "Improve educational features.",
+      "Use more durable construction materials.",
+      "Develop modular STEM learning components.",
+      "Develop classroom-ready renewable energy kits.",
+      "Explore collaboration with schools and STEM organizations.",
+      "Continue developing the model toward a scalable educational STEM kit that can be used in schools and learning centers.",
+      "Support the long-term goal of helping schools across Tanzania and Africa adopt practical renewable energy learning tools that inspire future engineers, innovators, scientists, and technology leaders.",
+    ],
   },
+},
   {
     slug: "solar-energy-production-prediction",
     title: "Estimated Annual Solar Energy Production Prediction",
