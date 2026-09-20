@@ -104,9 +104,7 @@ export const timeline: Milestone[] = [
 }`,
     tags: ["Electronics", "Leadership"],
   },
-
-  // Continue your remaining milestones here...
-];
+  {
     id: "veta",
     period: "2021 – 2024",
     chapter: "Training",
