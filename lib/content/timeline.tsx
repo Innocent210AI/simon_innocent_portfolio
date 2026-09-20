@@ -219,14 +219,80 @@ export const timeline: Milestone[] = [
     tags: ["Industry", "Troubleshooting"],
   },
   {
-    id: "alfred",
-    period: "2025 – present",
-    chapter: "Now",
-    title: "Alfred University",
-    location: "Alfred, New York",
-    body: "Pursuing a Bachelor of Science in Business Administration. Electronics taught me how to build systems; business is teaching me how to make them sustainable.",
-    tags: ["Business Administration"],
-  },
+  id: "alfred",
+  period: "2025 – Present",
+  chapter: "Now",
+  title: "Alfred University",
+  location: "Alfred, New York",
+
+  body: (
+    <div className="space-y-6">
+      <p>
+        My journey continues at Alfred University, where I have expanded my
+        academic, leadership, and innovation experiences. I am currently pursuing
+        a Bachelor of Science in Business Administration, which is strengthening
+        my knowledge in leadership, entrepreneurship, project management, and
+        organizational development.
+      </p>
+
+      <p>
+        While pursuing my degree, I remain actively engaged in technology,
+        engineering, STEM outreach, and innovation-driven projects. My background
+        in electronics and hands-on prototyping continues to inspire me to design,
+        build, and improve practical solutions that address real-world challenges.
+      </p>
+
+      <p>
+        In addition to my academic studies, I continue to explore opportunities
+        in electronics, robotics, STEM education technologies, and engineering
+        innovation. I am particularly interested in developing technologies that
+        can create positive social impact while improving efficiency,
+        accessibility, and problem-solving in different sectors.
+      </p>
+
+      <p>
+        My experiences at Alfred University have reinforced my belief that
+        innovation requires more than technical skills alone. By combining
+        technology, business knowledge, leadership, and creativity, I aim to
+        transform innovative ideas into sustainable solutions that can benefit
+        communities and contribute to technological advancement.
+      </p>
+
+      <div className="border-t border-gray-700 pt-6 mt-8">
+        <h3 className="text-xl md:text-2xl font-bold mb-5">
+          Looking Ahead
+        </h3>
+
+        <div className="space-y-6">
+          <p>
+            As I continue my journey, my goal is to combine innovation,
+            technology, leadership, and entrepreneurship to develop impactful
+            solutions that improve lives and create opportunities for future
+            generations.
+          </p>
+
+          <p>
+            I envision a future where engineering innovation, STEM education,
+            and emerging technologies play a greater role in solving real-world
+            challenges. Through continuous learning, research, project
+            development, and practical problem-solving, I am committed to
+            contributing to technological advancement while creating solutions
+            that address challenges in education, agriculture, energy, and
+            community development.
+          </p>
+
+          <p>
+            I believe that innovation is not only about creating new technologies
+            but also about applying creativity, knowledge, and leadership to
+            develop meaningful solutions that make a lasting impact on society.
+          </p>
+        </div>
+      </div>
+    </div>
+  ),
+
+  tags: ["Business Administration", "Innovation", "Leadership"],
+},
   {
     id: "step-lab",
     period: "January 2026 – present",
