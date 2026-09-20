@@ -399,103 +399,184 @@ export const projects: Project[] = [
     ],
   },
 },
-  {
-    slug: "manual-rice-planter-machine",
-    title: "Manual Rice Planter Machine",
-    category: "Agriculture",
-    year: "2024",
-    type: "Team project (3 members)",
-    status: "Functional prototype",
-    featured: "medium",
-    purpose:
-      "A manually operated planting machine developed to reduce the labour and time cost of traditional rice planting.",
-    summary:
-      "Built during the Jamii Tech Incubation Program at Twende Innovation Social Center, Arusha. The team received seed funding to continue development.",
-    skills: [
-      "Technical drawing",
-      "Welding",
-      "Precision measurement",
-      "Metal fabrication",
-      "Mechanical assembly",
-      "Team collaboration",
+ {
+  slug: "manual-rice-planter-machine",
+  title: "Manual Rice Planter Machine",
+  category: "Agricultural Innovation & Community Solutions",
+  year: "2024",
+  type: "Team Project (3 Members)",
+  status: "Prototype",
+  featured: "medium",
+
+  purpose:
+    "An agricultural innovation project developed to improve the efficiency of rice planting while reducing the physical labor required by farmers.",
+
+  summary:
+    "Developed by a three-member team during the Jamii Tech Incubation Program at Twende Innovation Social Center in Arusha, Tanzania. The prototype was designed as a practical and affordable planting solution for small-scale and medium-scale rice farmers.",
+
+  skills: [
+    "Agricultural Innovation",
+    "Engineering Design",
+    "Prototype Development",
+    "Technical Drawing",
+    "Welding",
+    "Fabrication",
+    "Precision Measurement",
+    "Mechanical Assembly",
+    "Teamwork",
+    "Problem Solving",
+    "Innovation & Entrepreneurship",
+    "Project Development",
+  ],
+
+  intendedApplication:
+    "A manually operated rice planting solution intended to support small-scale and medium-scale farmers by improving planting efficiency, reducing physical labor, and saving time during planting operations.",
+
+  limitations:
+    "The machine remains a prototype. Further field testing is required to evaluate planting accuracy, durability, productivity, usability, and performance under different agricultural conditions before wider deployment.",
+
+  caseStudy: {
+    context: [
+      "The Manual Rice Planter Machine is an agricultural innovation project developed to improve the efficiency of rice planting while reducing the physical labor required by farmers. The prototype was designed to support small-scale and medium-scale rice farmers by providing a practical and affordable planting solution that can improve productivity and ease the planting process.",
+
+      "The project was developed through a three-member team during the Jamii Tech Incubation Program organized by Twende Innovation Social Center in Arusha, Tanzania.",
+
+      "The inspiration for this project came from observing the challenges faced by many rice farmers in Tanzania and across Africa.",
+
+      "In many farming communities, rice cultivation still depends heavily on traditional methods. Farmers often spend long hours preparing fields and manually transplanting rice seedlings, a process that requires significant physical effort and time.",
+
+      "During the Jamii Tech Incubation Program, our team explored various community challenges and identified agricultural labor efficiency as an important area where innovation could create meaningful impact.",
+
+      "This inspired us to develop the Manual Rice Planter Machine as a practical solution that could help farmers plant rice more efficiently while reducing labor demands and improving productivity.",
     ],
-    intendedApplication: "Smallholder rice farming in Tanzania.",
-    limitations:
-      "An initial functional prototype. Field performance, durability, and productivity gains have not been measured at scale.",
-    caseStudy: {
-      context: [
-        "The project began inside the Jamii Tech Incubation Program at Twende Innovation Social Center in Arusha, where I was one of 15 participants selected from more than 100 applicants.",
-        "Our three-person team studied the way rice is planted by hand locally and looked for a mechanism that could be built and repaired with materials farmers already have access to.",
-      ],
-      problem: [
-        "Traditional rice planting is labour intensive and slow.",
-        "Time spent planting limits how much land a household can cultivate in a season.",
-      ],
-      solution: [
-        "A simple, affordable planting mechanism aimed at improving planting efficiency, reducing manual labour, and saving time during planting operations.",
-      ],
-      process: [
-        {
-          title: "01 — Problem research",
-          items: [
-            "Studied challenges faced by rice farmers.",
-            "Identified inefficiencies in traditional planting methods.",
-          ],
-        },
-        {
-          title: "02 — Concept development",
-          items: [
-            "Generated and evaluated concepts against practicality, affordability, and usability.",
-          ],
-        },
-        {
-          title: "03 — Prototype design",
-          items: [
-            "Prepared technical sketches and measurements.",
-            "Designed the machine structure and planting mechanism.",
-          ],
-        },
-        {
-          title: "04 — Fabrication and assembly",
-          items: [
-            "Cut and prepared metal components.",
-            "Welded and assembled the structure.",
-            "Tested and adjusted the assembled machine.",
-          ],
-        },
-      ],
-      contribution: [
-        "Technical drawing and design preparation.",
-        "Precision measurement of components.",
-        "Metal fabrication and welding.",
-        "Prototype construction and testing.",
-      ],
-      tools: [
-        {
-          title: "Materials and equipment",
-          items: [
-            "Steel and metal components",
-            "Welding equipment",
-            "Measuring tools",
-            "Mechanical assembly components",
-          ],
-        },
-      ],
-      challenges: [
-        "Developing a working prototype inside the limits of available materials, equipment, and programme timelines.",
-      ],
-      outcome: [
-        "The team produced a functional prototype demonstrating a practical planting solution.",
-        "Twende Innovation Social Center provided seed funding support for further development.",
-        "The team registered a startup company name associated with the innovation.",
-      ],
-      future: [
-        "Improve the planting mechanism and durability.",
-        "Run expanded testing in agricultural environments.",
-        "Collaborate with agricultural institutions and equipment manufacturers.",
-      ],
-    },
+
+    problem: [
+      "Many rice farmers continue to rely on labor-intensive planting methods that require significant time, energy, and manpower.",
+
+      "Common challenges include high physical workload during planting seasons, low planting efficiency, time-consuming manual transplanting processes, limited access to affordable agricultural machinery, and reduced productivity due to inefficient planting methods.",
+
+      "These challenges can affect farm output and increase the burden on farmers.",
+    ],
+
+    solution: [
+      "To address these challenges, our team designed and developed the Manual Rice Planter Machine prototype.",
+
+      "The machine was created to assist farmers in planting rice seedlings more efficiently while reducing the physical effort required during the planting process.",
+
+      "The project focused on developing a simple and practical planting mechanism that could potentially be adapted for use by local farming communities.",
+
+      "The innovation aimed to increase planting efficiency, reduce manual labor, save time during planting operations, support increased agricultural productivity, and provide a practical and affordable farming solution.",
+    ],
+
+    process: [
+      {
+        title: "01 — Problem Research",
+        items: [
+          "Studied challenges faced by rice farmers.",
+          "Identified inefficiencies in traditional planting methods.",
+          "Gathered information on agricultural practices and user needs.",
+        ],
+      },
+      {
+        title: "02 — Concept Development",
+        items: [
+          "Brainstormed possible solutions.",
+          "Developed initial design concepts.",
+          "Evaluated practicality, affordability, and usability.",
+        ],
+      },
+      {
+        title: "03 — Prototype Design",
+        items: [
+          "Prepared technical sketches and measurements.",
+          "Designed the machine structure and planting mechanism.",
+          "Planned material selection and fabrication processes.",
+        ],
+      },
+      {
+        title: "04 — Fabrication and Assembly",
+        items: [
+          "Cut and prepared metal components.",
+          "Performed welding and structural assembly.",
+          "Constructed and integrated machine components.",
+          "Conducted testing and adjustments.",
+        ],
+      },
+      {
+        title: "05 — Evaluation and Improvement",
+        items: [
+          "Reviewed prototype performance.",
+          "Identified areas for improvement.",
+          "Refined design features based on observations.",
+        ],
+      },
+    ],
+
+    contribution: [
+      "Technical drawing and design preparation.",
+      "Precision measurement of components.",
+      "Metal fabrication.",
+      "Welding and assembly of machine structures.",
+      "Prototype construction and testing.",
+    ],
+
+    tools: [
+      {
+        title: "Materials and Components",
+        items: [
+          "Steel and Metal Components",
+          "Welding Equipment",
+          "Measuring Tools",
+          "Fabrication Materials",
+          "Mechanical Assembly Components",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Technical Drawing",
+          "Welding",
+          "Precision Measurement",
+          "Fabrication",
+          "Prototype Development",
+          "Mechanical Assembly",
+          "Team Collaboration",
+          "Problem Solving",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the major challenges during the project was balancing technical development with available resources and time constraints.",
+
+      "As a team, we needed to develop a functional prototype while working within the limitations of available materials, equipment, and project timelines.",
+
+      "These challenges encouraged us to be resourceful, collaborative, and adaptable throughout the development process.",
+    ],
+
+    outcome: [
+      "The project successfully resulted in the development of a functional prototype that demonstrated the potential of a practical rice planting solution for agricultural applications.",
+
+      "The innovation provided valuable experience in agricultural technology development, engineering design, teamwork, and entrepreneurship.",
+
+      "The project also created opportunities to engage with innovation support programs and explore pathways for future development and commercialization.",
+
+      "Following the successful development and presentation of the prototype, our team received seed funding support from Twende Innovation Social Center to explore further development opportunities and advance the innovation.",
+
+      "As part of the project's entrepreneurial journey, our team successfully registered a startup company name associated with the innovation, providing valuable experience in innovation management, business development, and entrepreneurship.",
+    ],
+
+    future: [
+      "Enhance the planting mechanism.",
+      "Improve efficiency and productivity.",
+      "Use stronger and more durable construction materials.",
+      "Refine the design around farmer needs and usability.",
+      "Conduct expanded testing in agricultural environments.",
+      "Collaborate with agricultural institutions and equipment manufacturers.",
+      "Continue developing the prototype toward a practical and scalable agricultural solution.",
+    ],
   },
+},
   {
     slug: "tesla-coil",
     title: "Tesla Coil",
