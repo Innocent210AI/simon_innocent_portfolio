@@ -36,134 +36,172 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "military-security-robot-prototype",
-    title: "Military Security Robot Prototype",
-    category: "Robotics & Automation",
-    year: "2022",
-    type: "Individual project",
-    status: "Prototype",
-    featured: "flagship",
-    purpose:
-      "A remotely operated robotic prototype exploring how robotics can support security monitoring and inspection while reducing direct human exposure to hazardous environments.",
-    summary:
-      "Designed and built with locally available components at VETA, then demonstrated publicly in Dar es Salaam and London.",
-    skills: [
-      "Electronics assembly",
-      "Soldering",
-      "Technical drawing",
-      "System integration",
-      "Prototype development",
-      "Troubleshooting",
+  slug: "military-security-robot-prototype",
+  title: "Military Security Robot Prototype",
+  category: "Robotics & Automation",
+  year: "2022",
+  type: "Individual Project",
+  status: "Prototype",
+  featured: "flagship",
+
+  purpose:
+    "A remotely operated robotic prototype developed to explore how robotics and electronics can support security monitoring, inspection, and surveillance activities while reducing direct human exposure to potentially hazardous environments.",
+
+  summary:
+    "Designed and developed using locally available components during my electronics training at VETA, the prototype combined remote-control operation, movement, LED signaling, and an alarm system. It was later demonstrated publicly in Tanzania and internationally in London.",
+
+  skills: [
+    "Robotics",
+    "Electronics",
+    "Prototype Development",
+    "Engineering Design",
+    "Technical Drawing",
+    "Soldering",
+    "System Integration",
+    "Problem Solving",
+    "Troubleshooting",
+    "Innovation & Creativity",
+    "Technical Communication",
+    "Public Presentation",
+    "STEM Outreach",
+  ],
+
+  intendedApplication:
+    "Remote inspection, observation, and monitoring support in environments where direct human access may involve unnecessary risk.",
+
+  limitations:
+    "The project remains a prototype. Its remote-control system is transmitter/receiver based, and the prototype does not currently include autonomous navigation, advanced sensing, wireless data transmission, or intelligent monitoring capabilities. It has not been tested or deployed in an operational security environment.",
+
+  caseStudy: {
+    context: [
+      "The idea for the Military Security Robot Prototype was inspired by the rapid advancement of science and technology around the world, particularly in robotics and automation. I was also interested in situations where security personnel and soldiers may be exposed to significant risks while carrying out inspection and monitoring activities.",
+
+      "I wanted to explore how robotic technology could be used to assist in environments that may pose safety challenges to humans. This interest led me to design and build a remotely operated prototype capable of being controlled from a distance while performing basic inspection and monitoring functions.",
+
+      "The project became an opportunity for me to apply my electronics knowledge, creativity, and engineering problem-solving skills to the development of a practical technology concept.",
     ],
-    intendedApplication:
-      "Remote inspection and monitoring support in environments that carry risk for personnel.",
-    limitations:
-      "Prototype stage. Remote control is transmitter/receiver based; there are no autonomous navigation, sensing, or wireless data features, and the platform has not been tested in an operational security deployment.",
-    caseStudy: {
-      context: [
-        "The concept came from watching how quickly robotics and automation were advancing globally, and from noticing that security personnel are regularly asked to inspect unfamiliar or potentially hazardous environments in person.",
-        "I wanted to find out how much of that observation work a simple, locally buildable robot could take on — and to use the build as a way to apply electronics knowledge to a real problem statement.",
-      ],
-      problem: [
-        "Inspection of unfamiliar or potentially hazardous areas exposes people to unnecessary risk.",
-        "Monitoring at transportation hubs and restricted areas requires continuous observation and information gathering to support decisions.",
-      ],
-      solution: [
-        "A remotely operated robot that an operator can drive from a distance while it moves through an environment.",
-        "The prototype carries LED indicator lights and an alarm system to demonstrate signalling and alert functions during inspection.",
-        "The build shows how a robotic platform can act as a supporting tool for monitoring and information gathering rather than as a replacement for trained personnel.",
-      ],
-      process: [
-        {
-          title: "01 — Concept development",
-          items: [
-            "Defined the problem and project objectives.",
-            "Researched robotics used for security and inspection tasks.",
-          ],
-        },
-        {
-          title: "02 — System design",
-          items: [
-            "Produced the initial design concept and overall structure.",
-            "Planned the arrangement of electronic and mechanical components.",
-          ],
-        },
-        {
-          title: "03 — Chassis and body construction",
-          items: [
-            "Designed and built the chassis and body.",
-            "Selected locally available materials for construction.",
-          ],
-        },
-        {
-          title: "04 — Electronics integration",
-          items: [
-            "Installed a transmitter and receiver remote-control system.",
-            "Integrated LED indicators and an alarm system.",
-            "Connected and tested circuits and power supply components.",
-          ],
-        },
-        {
-          title: "05 — Testing and improvement",
-          items: [
-            "Ran multiple rounds of testing.",
-            "Evaluated movement performance and control reliability.",
-            "Adjusted the design where testing revealed weaknesses.",
-          ],
-        },
-      ],
-      tools: [
-        {
-          title: "Hardware and electronics",
-          items: [
-            "Remote control transmitter",
-            "Remote control receiver",
-            "DC motors",
-            "LED indicator lights",
-            "Alarm system",
-            "Electronic circuits",
-            "Power supply components",
-          ],
-        },
-        {
-          title: "Technical skills applied",
-          items: [
-            "Electronics assembly",
-            "Soldering",
-            "Technical drawing",
-            "Prototype development",
-            "System integration",
-            "Troubleshooting",
-          ],
-        },
-      ],
-      challenges: [
-        "Limited access to specialised equipment, tools, and materials meant relying on what was available locally.",
-        "Component substitution drove most of the design decisions, and each substitution required re-testing the power and control paths.",
-      ],
-      outcome: [
-        "The prototype demonstrated the concept end to end: remote movement, signalling, and alert functions built from accessible parts.",
-        "It became the basis for public demonstrations in Tanzania and internationally, and for a series of conversations about youth innovation and STEM.",
-      ],
-      showcases: [
-        {
-          title: "46th Dar es Salaam International Trade Fair (Saba Saba), 2022",
-          detail:
-            "Shown as part of the VETA innovation exhibition to visitors, educators, and industry representatives.",
-        },
-        {
-          title: "63rd London International Youth Science Forum, 2022",
-          detail:
-            "Presented at the LIYSF Science Bazaar to an international audience of students, educators, and researchers.",
-        },
-      ],
-      future: [
-        "Integrate sensors and wireless communication.",
-        "Add monitoring intelligence and improved navigation.",
-        "Continue development through collaboration and research.",
-      ],
-    },
+
+    problem: [
+      "Security personnel are often required to inspect unfamiliar or potentially hazardous environments. Conducting inspections in such areas may expose individuals to unnecessary risks and operational challenges.",
+
+      "Monitoring activities at transportation hubs, restricted areas, and other sensitive locations can also require continuous observation and information gathering to support decision-making and improve overall security operations.",
+    ],
+
+    solution: [
+      "To address these challenges, I designed and developed a remotely operated robotic prototype intended to assist with security monitoring and inspection activities.",
+
+      "The robot was designed to move within an environment while allowing an operator to control its movements from a distance. The prototype incorporated several electronic features to support demonstration and signaling functions, including LED indicator lights and an alarm system.",
+
+      "The project demonstrates how robotic systems can be utilized as supporting tools for monitoring, inspection, and information-gathering activities while reducing direct human involvement in potentially risky situations.",
+    ],
+
+    process: [
+      {
+        title: "01 — Concept Development",
+        items: [
+          "Identified the problem and defined the main project objectives.",
+          "Researched the potential use of robotics in security, monitoring, and inspection applications.",
+        ],
+      },
+      {
+        title: "02 — System Design",
+        items: [
+          "Created the initial design concept and overall robot structure.",
+          "Planned the arrangement of electronic and mechanical components.",
+        ],
+      },
+      {
+        title: "03 — Chassis and Body Construction",
+        items: [
+          "Designed and built the robot chassis and body structure.",
+          "Selected locally available materials to support construction.",
+        ],
+      },
+      {
+        title: "04 — Electronics Integration",
+        items: [
+          "Installed a transmitter and receiver-based remote-control system.",
+          "Integrated LED indicator lights for signaling purposes.",
+          "Added an alarm system to demonstrate alert functions.",
+          "Connected and tested electronic circuits and power supply systems.",
+        ],
+      },
+      {
+        title: "05 — Testing and Improvement",
+        items: [
+          "Conducted multiple rounds of prototype testing.",
+          "Evaluated movement performance and remote-control reliability.",
+          "Made design adjustments and improvements where necessary.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Hardware & Electronics",
+        items: [
+          "Remote Control Transmitter",
+          "Remote Control Receiver",
+          "DC Motors",
+          "LED Indicator Lights",
+          "Alarm System",
+          "Electronic Circuits",
+          "Power Supply Components",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Assembly",
+          "Soldering",
+          "Technical Drawing",
+          "Prototype Development",
+          "System Integration",
+          "Troubleshooting",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the main challenges during the development process was limited access to specialized equipment, tools, and materials.",
+
+      "As a result, I relied heavily on components and resources that were available within my local environment. This required creativity, adaptability, and problem-solving throughout the design and construction process.",
+
+      "Despite these limitations, I successfully completed a functional prototype and demonstrated its intended concept.",
+    ],
+
+    outcome: [
+      "The project successfully demonstrated the practical application of robotics, electronics, and engineering design principles within a security-focused concept.",
+
+      "The prototype also provided opportunities for public engagement, technology demonstration, and international exposure.",
+
+      "Through presenting the project to different audiences, I also strengthened my ability to communicate technical ideas and explain the purpose and potential application of an engineering prototype.",
+    ],
+
+    showcases: [
+      {
+        title:
+          "46th Dar es Salaam International Trade Fair (Saba Saba Exhibition), 2022",
+        detail:
+          "The Military Security Robot Prototype was showcased as part of the Vocational Education and Training Authority (VETA) innovation exhibition, providing an opportunity to demonstrate the project to visitors, educators, industry representatives, and members of the public.",
+      },
+      {
+        title:
+          "63rd London International Youth Science Forum (LIYSF), 2022",
+        detail:
+          "The prototype was presented during the Science Bazaar at the London International Youth Science Forum (LIYSF 2022), where it was introduced to an international audience of students, educators, researchers, and STEM enthusiasts from around the world.",
+      },
+    ],
+
+    future: [
+      "Integrate advanced sensors to improve environmental awareness and monitoring capabilities.",
+      "Introduce wireless communication and data transmission systems.",
+      "Explore intelligent monitoring capabilities and enhanced navigation features.",
+      "Further refine the robot's mechanical and electronic systems through continued prototyping and testing.",
+      "Continue exploring robotics, automation, and intelligent technologies through collaboration, research, and future project development.",
+    ],
   },
+},
   {
     slug: "stem-skills-training-model",
     title: "STEM Skills Training Model",
