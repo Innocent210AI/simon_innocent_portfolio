@@ -1,3 +1,4 @@
+import type React from "react";
 export type Milestone = {
   id: string;
   period: string;
@@ -10,7 +11,7 @@ export type Milestone = {
     | "Now";
   title: string;
   location: string;
-  body: string;
+  body: React.ReactNode;
   tags?: string[];
 };
 
@@ -39,7 +40,71 @@ export const timeline: Milestone[] = [
   chapter: "Foundations",
   title: "Audio, antennas, and remote control",
   location: "Tanzania",
-  body: "As I progressed through secondary school, my projects became more advanced and practical. During this period, I worked on several creative and technical projects, including Audio and Video Recording Systems, Active Music Speakers, Antenna Support Systems, Data Support DS, Musical Equipment (Drums and Guitars), and Remote Control Car Toys. These projects strengthened my practical skills and deepened my interest in engineering, electronics, and technology-based problem-solving. During secondary school, I also participated in several student clubs and school-based organizations, including EWURA CCC (Energy and Water Utilities Regulatory Authority – Consumer Consultative Council), the Anti-Corruption Club under the Prevention and Combating of Corruption Bureau (PCCB), and the Mwalimu Nyerere Research Chair in Pan-African Studies. My participation in these organizations helped me develop leadership, teamwork, communication, coordination, collaboration, responsibility, and shared problem-solving skills. These experiences complemented my technical interests and helped me develop not only as a young innovator, but also as a team member and emerging leader.",
+
+  body: (
+    <div className="space-y-6">
+      <p>
+        As I progressed through secondary school, my projects became more
+        advanced and practical. During this period, I worked on several creative
+        and technical projects, including:
+      </p>
+
+      <ul className="list-disc pl-8 space-y-1">
+        <li>Audio and Video Recording Systems</li>
+        <li>Active Music Speaker</li>
+        <li>Antenna Support Systems</li>
+        <li>Data Support DS</li>
+        <li>Musical Equipment (Drums and Guitars)</li>
+        <li>Remote Car Toys</li>
+      </ul>
+
+      <p>
+        These projects strengthened my practical skills and deepened my interest
+        in engineering, electronics, and technology-based problem-solving.
+      </p>
+
+      <h3 className="text-xl font-bold">
+        Leadership &amp; School Community Involvement
+      </h3>
+
+      <p>
+        During secondary school, I also participated in several student clubs
+        and school-based organizations, including:
+      </p>
+
+      <ul className="list-disc pl-8 space-y-2">
+        <li>
+          <strong>EWURA CCC</strong> — Energy and Water Utilities Regulatory
+          Authority – Consumer Consultative Council
+        </li>
+
+        <li>
+          <strong>Anti-Corruption Club</strong> — Prevention and Combating of
+          Corruption Bureau (PCCB)
+        </li>
+
+        <li>
+          <strong>
+            Mwalimu Nyerere Research Chair in Pan-African Studies
+          </strong>
+        </li>
+      </ul>
+
+      <p>
+        My participation in these clubs gave me opportunities to develop
+        leadership, teamwork, communication, and coordination skills. Working
+        with other students also helped me understand the importance of
+        collaboration, responsibility, and shared problem-solving.
+      </p>
+
+      <p>
+        These experiences complemented my technical interests by helping me
+        develop not only as a young innovator, but also as a team member and
+        emerging leader.
+      </p>
+    </div>
+  ),
+
   tags: ["Electronics", "Leadership"],
 },
   {
