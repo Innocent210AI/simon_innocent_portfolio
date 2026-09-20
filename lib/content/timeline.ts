@@ -33,76 +33,15 @@ export const timeline: Milestone[] = [
     body: "Before starting formal education, I spent much of my time exploring, building, and experimenting with simple materials around me. I enjoyed creating objects and finding ways to improve or modify them. These experiences laid the foundation for my future interest in technology, engineering, and innovation.",
     tags: ["Electricity", "Design"],
   },
-  {
-    id: "secondary-school",
-    period: "Secondary school",
-    chapter: "Foundations",
-    title: "Audio, antennas, and remote control",
-    location: "Tanzania",
-    body: `export default function SecondarySchoolJourney() {
-  return (
-    <section className="w-full py-12">
-      <div className="max-w-4xl mx-auto px-6">
-
-        <p className="text-base md:text-lg leading-relaxed mb-6">
-          As I progressed through secondary school, my projects became more
-          advanced and practical. During this period, I worked on several creative and
-          technical projects, including:
-        </p>
-
-        <ul className="list-disc pl-6 space-y-2 mb-8 text-base md:text-lg">
-          <li>Audio and Video Recording Systems</li>
-          <li>Active Music Speaker</li>
-          <li>Antenna Support Systems</li>
-          <li>Data Support DS</li>
-          <li>Musical Equipment (Drums and Guitars)</li>
-          <li>Remote Car Toys</li>
-        </ul>
-
-        <p className="text-base md:text-lg leading-relaxed mb-10">
-          These projects strengthened my practical skills and deepened my interest
-          in engineering, electronics, and technology-based problem-solving.
-        </p>
-
-        <h2 className="text-2xl md:text-3xl font-bold mb-6">
-          Leadership &amp; School Community Involvement
-        </h2>
-
-        <p className="text-base md:text-lg leading-relaxed mb-6">
-          During secondary school, I also participated in several student clubs and
-          school-based organizations, including:
-        </p>
-
-        <ul className="list-disc pl-6 space-y-4 mb-8 text-base md:text-lg">
-          <li>
-            <strong>EWURA CCC</strong> — Energy and Water Utilities Regulatory Authority – Consumer Consultative Council
-          </li>
-
-          <li>
-            <strong>Anti-Corruption Club</strong> — Prevention and Combating of Corruption Bureau (PCCB)
-          </li>
-
-          <li>
-            <strong>Mwalimu Nyerere Research Chair in Pan-African Studies</strong>
-          </li>
-        </ul>
-
-        <p className="text-base md:text-lg leading-relaxed mb-6">
-          My participation in these clubs gave me opportunities to develop
-          leadership, teamwork, communication, and coordination skills. Working with
-          other students also helped me understand the importance of collaboration,
-          responsibility, and shared problem-solving.
-        </p>
-
-        <p className="text-base md:text-lg leading-relaxed">
-          These experiences complemented my technical interests by helping me develop not only as a young innovator, but also as a team member and emerging leader.
-        </p>
-
-      </div>
-    </section>
-  );
-}`,
-    tags: ["Electronics", "Leadership"],
+{
+  id: "secondary-school",
+  period: "Secondary School",
+  chapter: "Foundations",
+  title: "Audio, antennas, and remote control",
+  location: "Tanzania",
+  body: "As I progressed through secondary school, my projects became more advanced and practical. During this period, I worked on several creative and technical projects, including Audio and Video Recording Systems, Active Music Speakers, Antenna Support Systems, Data Support DS, Musical Equipment (Drums and Guitars), and Remote Control Car Toys. These projects strengthened my practical skills and deepened my interest in engineering, electronics, and technology-based problem-solving. During secondary school, I also participated in several student clubs and school-based organizations, including EWURA CCC (Energy and Water Utilities Regulatory Authority – Consumer Consultative Council), the Anti-Corruption Club under the Prevention and Combating of Corruption Bureau (PCCB), and the Mwalimu Nyerere Research Chair in Pan-African Studies. My participation in these organizations helped me develop leadership, teamwork, communication, coordination, collaboration, responsibility, and shared problem-solving skills. These experiences complemented my technical interests and helped me develop not only as a young innovator, but also as a team member and emerging leader.",
+  tags: ["Electronics", "Leadership"],
+},
   },
   {
     id: "veta",
