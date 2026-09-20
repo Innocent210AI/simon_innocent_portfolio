@@ -203,75 +203,202 @@ export const projects: Project[] = [
   },
 },
   {
-    slug: "stem-skills-training-model",
-    title: "STEM Skills Training Model",
-    category: "STEM Education",
-    year: "2021",
-    type: "Individual project",
-    status: "Prototype",
-    featured: "medium",
-    purpose:
-      "A power generation teaching model that makes electricity generation, transmission, and distribution visible and touchable for students.",
-    summary:
-      "Built to close the gap between board diagrams and real components in Tanzanian science classrooms. Presented at MAKISATU 2022 and Saba Saba 2022.",
-    skills: [
-      "Electronics assembly",
-      "Circuit integration",
-      "Educational design",
-      "Prototype development",
-      "Technical communication",
+  slug: "stem-skills-training-model",
+  title: "STEM Skills Training Model (Power Generation Prototype)",
+  category: "STEM Education Technologies",
+  year: "2021",
+  type: "Individual Project",
+  status: "Prototype",
+  featured: "medium",
+
+  purpose:
+    "An educational power generation prototype designed to demonstrate the complete process of electricity generation, transmission, and distribution through hands-on learning.",
+
+  summary:
+    "Developed to support practical STEM education by helping students understand scientific and engineering concepts through direct observation and interaction rather than relying solely on classroom theory.",
+
+  skills: [
+    "STEM Education Innovation",
+    "Electronics",
+    "Electrical Systems",
+    "Prototype Development",
+    "Engineering Design",
+    "Technical Drawing",
+    "Soldering",
+    "Problem Solving",
+    "Public Presentation",
+    "Science Communication",
+    "Project Development",
+    "Creativity & Innovation",
+    "Leadership",
+  ],
+
+  intendedApplication:
+    "A hands-on educational tool for demonstrating electricity generation, transmission, distribution, electrical circuits, magnetism, energy conversion, and basic engineering principles to students.",
+
+  limitations:
+    "The project remains an educational prototype rather than a classroom-certified product. Further development would be required to improve durability, safety, modularity, documentation, and classroom usability before wider deployment in schools.",
+
+  caseStudy: {
+    context: [
+      "The STEM Skills Training Model is an educational power generation prototype designed to demonstrate the complete process of electricity generation, transmission, and distribution through hands-on learning.",
+
+      "The project was developed to support practical STEM education by helping students understand scientific and engineering concepts through direct observation and interaction rather than relying solely on classroom theory.",
+
+      "The model serves as a teaching tool that enables learners to explore concepts such as electrical circuits, energy generation, transmission systems, magnetism, simple and complex machines, and electricity distribution in a practical and engaging way.",
+
+      "The inspiration for this project came from my personal educational experience and my observations of STEM education challenges in many schools across Tanzania and other parts of Africa.",
+
+      "During my primary and secondary school years, many science and physics lessons were taught primarily through theoretical explanations. Teachers often relied on drawings, symbols, and diagrams on the classroom board to explain concepts such as electrical circuits, switches, bulbs, and power systems. However, students rarely had opportunities to see or interact with real components and practical demonstrations.",
+
+      "As a result, some learners found it difficult to fully understand STEM concepts, which affected their confidence and academic performance in science-related subjects.",
+
+      "To help address this challenge, I decided to develop a practical learning solution that would allow students to see, touch, and interact with engineering and science concepts in a real-world context. This vision led to the creation of the STEM Skills Training Model.",
     ],
-    intendedApplication:
-      "Hands-on demonstration tool for secondary school science and STEM programmes.",
-    limitations:
-      "A demonstration model rather than a classroom-certified kit; durability and safety hardening would be required for wide school deployment.",
-    caseStudy: {
-      context: [
-        "Through primary and secondary school, most physics teaching I encountered happened on the board: circuit symbols, switches, and bulbs drawn in chalk.",
-        "Students rarely handled the real components, and that distance between the diagram and the object made the subject harder than it needed to be.",
-      ],
-      problem: [
-        "Many students learn STEM subjects through theory without access to practical demonstrations.",
-        "The gap between theory and practice reduces confidence and performance in science subjects.",
-      ],
-      solution: [
-        "A model that walks a learner through the full chain — generation, transmission, and distribution — as a physical system they can observe and interact with.",
-        "It supports lessons on electrical circuits, energy generation, magnetism, simple and complex machines, and distribution.",
-      ],
-      tools: [
-        {
-          title: "Skills applied",
-          items: [
-            "Electronics assembly",
-            "Circuit design and integration",
-            "Prototype construction",
-            "Educational demonstration",
-            "Public presentation",
-          ],
-        },
-      ],
-      outcome: [
-        "The model won 1st place in the STEM Youth Boot Camp Scale-Up Project (ProjeKt Inspire, 2021).",
-        "It was presented at MAKISATU 2022 as an example of a practical STEM education innovation, and at the Saba Saba 2022 VETA exhibition.",
-        "It was also one of the two projects presented at the LIYSF 2022 Science Bazaar in London.",
-      ],
-      showcases: [
-        {
-          title: "STEM Youth Boot Camp, December 2021",
-          detail: "1st place, Scale-Up Project category.",
-        },
-        {
-          title: "MAKISATU 2022, Dodoma",
-          detail:
-            "Presented representing the vocational education and training sector as one of 88 national finalists.",
-        },
-      ],
-      future: [
-        "Develop classroom-ready versions that schools can keep and maintain.",
-        "Expand the accompanying teaching documentation.",
-      ],
-    },
+
+    problem: [
+      "Many students learn STEM subjects through theoretical instruction without sufficient access to practical demonstrations and hands-on activities.",
+
+      "This gap between theory and practice can make scientific and engineering concepts difficult to understand, reducing student engagement, curiosity, and overall learning outcomes.",
+
+      "Schools with limited laboratory facilities and teaching resources often face additional challenges in providing effective practical STEM education.",
+    ],
+
+    solution: [
+      "To address this challenge, I designed and built the STEM Skills Training Model, an educational generator prototype that demonstrates how electricity is generated, transmitted, and distributed to end users.",
+
+      "The model was developed as an interactive learning platform that enables students to visualize and understand engineering concepts through practical demonstrations.",
+
+      "Through this prototype, learners can explore electricity generation, electricity transmission, electricity distribution, series and parallel circuits, magnetism, energy conversion, simple and complex machines, and basic engineering principles.",
+
+      "The project transforms abstract classroom concepts into visible and interactive learning experiences.",
+    ],
+
+    process: [
+      {
+        title: "01 — Research and Problem Identification",
+        items: [
+          "Observed challenges in practical STEM education.",
+          "Identified the need for a hands-on learning tool.",
+          "Gathered ideas for demonstrating engineering concepts through a single educational model.",
+        ],
+      },
+      {
+        title: "02 — Concept Development",
+        items: [
+          "Designed a system capable of illustrating the electricity supply chain from generation to end-user consumption.",
+          "Planned how multiple STEM concepts could be integrated into one learning platform.",
+        ],
+      },
+      {
+        title: "03 — Prototype Construction",
+        items: [
+          "Built the generator prototype structure.",
+          "Designed miniature power transmission poles.",
+          "Constructed a model house to represent the electricity consumer.",
+          "Installed electrical and mechanical components.",
+        ],
+      },
+      {
+        title: "04 — System Integration",
+        items: [
+          "Connected generation, transmission, and distribution sections.",
+          "Integrated demonstration circuits and learning components.",
+          "Conducted testing to ensure proper operation.",
+        ],
+      },
+      {
+        title: "05 — Testing and Refinement",
+        items: [
+          "Evaluated the effectiveness of the model for teaching purposes.",
+          "Improved visual presentation and functionality.",
+          "Enhanced the overall appearance and educational value of the prototype.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Materials and Components",
+        items: [
+          "DC Motors",
+          "Magnets",
+          "LED Lights",
+          "Electrical Switches",
+          "Electronic Components",
+          "Lightweight Wood",
+          "Plastic Pipes for Transmission Pole Structures",
+          "Cardboard Materials",
+          "Paint and Finishing Materials",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Assembly",
+          "Soldering",
+          "Technical Drawing",
+          "Prototype Development",
+          "STEM Education Design",
+          "Electrical Systems Demonstration",
+          "Creative Problem Solving",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the primary challenges during the development process was limited access to specialized educational equipment, tools, and construction materials.",
+
+      "To overcome this challenge, I utilized locally available resources and adapted materials creatively while maintaining the educational objectives of the project.",
+
+      "This experience strengthened my problem-solving skills and demonstrated the importance of innovation in resource-constrained environments.",
+    ],
+
+    outcome: [
+      "The STEM Skills Training Model successfully demonstrated how practical learning can improve the understanding of STEM concepts by allowing students to observe and interact with engineering systems directly.",
+
+      "The project contributed to promoting hands-on STEM education and encouraged learners to develop curiosity, creativity, and problem-solving skills through practical experimentation.",
+
+      "The prototype also provided opportunities to showcase the value of STEM innovation at competitions, exhibitions, and international educational events.",
+    ],
+
+    showcases: [
+      {
+        title: "STEM Youth Boot Camp — December 2021",
+        detail:
+          "The STEM Skills Training Model was presented during the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanzania. The project received First Place in the Scale-Up Project Presentation category, recognizing its potential contribution to practical STEM education and student learning.",
+      },
+      {
+        title:
+          "MAKISATU — National Competition on Science, Technology & Innovation — May 2022",
+        detail:
+          "The project was selected and presented at MAKISATU in Dodoma, Tanzania, where it was recognized among innovative solutions promoting science, technology, and engineering education. The experience provided an opportunity to engage with innovators, educators, researchers, and stakeholders from across the country.",
+      },
+      {
+        title:
+          "46th Dar es Salaam International Trade Fair (Saba Saba Exhibition) — 2022",
+        detail:
+          "The prototype was exhibited as part of the Vocational Education and Training Authority (VETA) innovation showcase. The exhibition allowed students, educators, policymakers, industry representatives, and members of the public to interact with the project and learn about its educational applications.",
+      },
+      {
+        title:
+          "63rd London International Youth Science Forum (LIYSF) — 2022",
+        detail:
+          "The STEM Skills Training Model was presented during the Science Bazaar at the London International Youth Science Forum in the United Kingdom. The event provided an opportunity to share the innovation with an international audience while exchanging ideas with students and STEM enthusiasts from different countries.",
+      },
+    ],
+
+    future: [
+      "Develop modular STEM learning kits based on the original prototype.",
+      "Create enhanced interactive demonstrations for students.",
+      "Integrate additional engineering and science concepts into the learning platform.",
+      "Improve durability, safety, and classroom usability.",
+      "Develop supporting teaching materials and documentation for educators.",
+      "Collaborate with educational institutions and STEM organizations.",
+      "Continue developing the concept toward a scalable practical STEM education product for schools and training programs.",
+    ],
   },
+},
   {
     slug: "manual-rice-planter-machine",
     title: "Manual Rice Planter Machine",
