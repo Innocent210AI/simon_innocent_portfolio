@@ -138,7 +138,7 @@ export const timeline: Milestone[] = [
   },
   {
     id: "makisatu-sabasaba",
-    period: "May – July 2022",
+    period: "May 2022 – July 2022",
     chapter: "Recognition",
     title: "MAKISATU national finalist and Saba Saba",
     location: "Dodoma & Dar es Salaam, Tanzania",
