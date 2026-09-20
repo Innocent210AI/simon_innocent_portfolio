@@ -42,7 +42,6 @@ export const timeline: Milestone[] = [
   body: "As I progressed through secondary school, my projects became more advanced and practical. During this period, I worked on several creative and technical projects, including Audio and Video Recording Systems, Active Music Speakers, Antenna Support Systems, Data Support DS, Musical Equipment (Drums and Guitars), and Remote Control Car Toys. These projects strengthened my practical skills and deepened my interest in engineering, electronics, and technology-based problem-solving. During secondary school, I also participated in several student clubs and school-based organizations, including EWURA CCC (Energy and Water Utilities Regulatory Authority – Consumer Consultative Council), the Anti-Corruption Club under the Prevention and Combating of Corruption Bureau (PCCB), and the Mwalimu Nyerere Research Chair in Pan-African Studies. My participation in these organizations helped me develop leadership, teamwork, communication, coordination, collaboration, responsibility, and shared problem-solving skills. These experiences complemented my technical interests and helped me develop not only as a young innovator, but also as a team member and emerging leader.",
   tags: ["Electronics", "Leadership"],
 },
-  },
   {
     id: "veta",
     period: "2021 – 2024",
