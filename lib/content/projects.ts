@@ -945,6 +945,7 @@ export const projects: Project[] = [
     },
   },
   
+
 {
   slug: "smart-fuel-gauge-budget-tracker",
   title: "Smart Fuel Gauge and Budget Tracker App",
@@ -973,14 +974,14 @@ export const projects: Project[] = [
   ],
 
   intendedApplication:
-    "An interactive fuel management and transportation budgeting application designed to help vehicle owners estimate fuel consumption, monitor remaining fuel, calculate driving range, plan trips, manage transportation expenses, and determine when refueling may be necessary.",
+    "An interactive vehicle fuel management and budgeting application designed to help users estimate remaining fuel, driving range, travel time, fuel consumption, monthly expenses, and refueling requirements for planned trips.",
 
   limitations:
-    "The application is an academic software project that performs calculations based on vehicle information and fuel data entered by users. Its estimates depend on the accuracy of the input values and assumptions. The current application does not include direct vehicle sensor connectivity, GPS-based route optimization, cloud synchronization, or artificial intelligence-powered predictions. These features may be explored in future development.",
+    "The application is an academic software project that performs calculations based on vehicle and fuel information entered by users. Its estimates depend on the accuracy of the input data and calculation assumptions. Direct vehicle sensor connectivity, GPS-based route optimization, cloud storage, and artificial intelligence-powered predictions are potential future improvements rather than current features.",
 
   caseStudy: {
     context: [
-      "The idea for this project emerged from the everyday challenges many drivers face in managing fuel consumption and transportation expenses.",
+      "The idea for this project emerged from the everyday challenge many drivers face in managing fuel consumption and transportation expenses.",
 
       "Drivers often need to estimate how far they can travel with the fuel remaining in their vehicles, determine whether a planned trip is possible without refueling, and understand the financial impact of their fuel usage. However, these calculations are frequently performed manually or are not easily accessible in one place.",
 
@@ -990,9 +991,7 @@ export const projects: Project[] = [
     ],
 
     solution: [
-      "To solve this problem, our team designed a MATLAB application capable of monitoring current fuel levels, calculating remaining fuel percentages, estimating driving range based on fuel efficiency, and predicting travel time based on average vehicle speed.",
-
-      "The application also supports daily fuel consumption calculations, monthly fuel expense estimations, determining fuel requirements for planned trips, identifying whether refueling is necessary before a trip, tracking fuel usage history, and exporting fuel reports and summaries.",
+      "To solve this problem, our team designed a MATLAB application capable of monitoring current fuel levels, calculating remaining fuel percentage, estimating driving range based on fuel efficiency, predicting travel time based on average vehicle speed, calculating daily fuel consumption, estimating monthly fuel expenses, determining fuel required for planned trips, identifying whether refueling is necessary before a trip, tracking fuel usage history, and exporting fuel reports and summaries.",
 
       "The application provides immediate calculations and visual feedback based on user inputs to assist users in understanding their fuel status and transportation costs.",
     ],
@@ -1009,12 +1008,13 @@ export const projects: Project[] = [
       {
         title: "02 — System Design",
         items: [
-          "Designed the overall application structure and user input sections.",
+          "Designed the overall application structure.",
+          "Created user input sections.",
           "Planned the fuel calculation engine.",
           "Designed the visual fuel tank display.",
-          "Planned fuel status indicators.",
-          "Designed fuel usage projections.",
-          "Planned data export functionality.",
+          "Developed fuel status indicators.",
+          "Planned fuel usage projections.",
+          "Designed data export functionality.",
         ],
       },
       {
@@ -1036,7 +1036,7 @@ export const projects: Project[] = [
           "Developed input fields for vehicle and fuel information.",
           "Integrated visual indicators to display fuel status.",
           "Implemented fuel tank simulations to help users understand calculated results.",
-          "Organized interface components to improve usability and accessibility.",
+          "Organized interface components to improve usability and clarity.",
         ],
       },
       {
@@ -1054,30 +1054,22 @@ export const projects: Project[] = [
           "Validated user inputs and calculation results.",
           "Tested application behavior under different input conditions.",
           "Evaluated the reliability of fuel monitoring and travel estimation functions.",
-          "Refined the application to improve accuracy, usability, and overall performance.",
+          "Refined the application to improve usability and overall performance.",
         ],
       },
     ],
 
     tools: [
       {
-        title: "Software & Development Tools",
+        title: "Technologies & Development Tools",
         items: [
           "MATLAB",
           "MATLAB App Designer",
           "Data Visualization",
           "User Interface Design",
-        ],
-      },
-      {
-        title: "Programming & Analytical Techniques",
-        items: [
           "Algorithm Development",
           "Data Export Functions",
           "Fuel Consumption Modeling",
-          "Mathematical Calculations",
-          "Travel Distance Estimation",
-          "Fuel Budget Calculations",
         ],
       },
     ],
@@ -1101,18 +1093,19 @@ export const projects: Project[] = [
     ],
 
     future: [
-      "Integrate the application with mobile platforms.",
-      "Introduce real-time vehicle sensor connectivity.",
-      "Develop GPS-based route optimization.",
-      "Add fuel price comparison tools.",
-      "Implement predictive fuel consumption analytics.",
-      "Introduce cloud-based data storage.",
-      "Develop vehicle maintenance tracking features.",
-      "Explore artificial intelligence-powered driving recommendations.",
+      "Mobile application integration.",
+      "Real-time vehicle sensor connectivity.",
+      "GPS-based route optimization.",
+      "Fuel price comparison tools.",
+      "Predictive fuel consumption analytics.",
+      "Cloud-based data storage.",
+      "Vehicle maintenance tracking features.",
+      "Artificial intelligence-powered driving recommendations.",
       "Continue developing the application toward a more comprehensive vehicle management and transportation planning platform.",
     ],
   },
 },
+
 
   {
     slug: "better-ladder",
