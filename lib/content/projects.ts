@@ -1464,19 +1464,221 @@ export const projects: Project[] = [
   },
 },
 
-  {
-    slug: "audio-video-recording-system",
-    title: "Audio and Video Recording System",
-    category: "Electronics",
-    year: "Secondary school",
-    type: "Individual project",
-    status: "Built prototype",
-    purpose:
-      "A recording setup assembled from salvaged parts, including components recovered from unused mobile phones.",
-    summary:
-      "Recovering usable modules from damaged devices became the practical route to parts that were otherwise out of reach.",
-    skills: ["Electronics assembly", "Component salvage", "Soldering", "Testing"],
+  
+{
+  slug: "audio-video-recording-system",
+  title: "Audio and Video Recording System",
+  category: "Electronics & Communication Systems",
+  year: "2015",
+  type: "Portable Audio and Video Recording System Prototype",
+  status: "Built prototype",
+
+  purpose:
+    "A portable audio and video recording system that I designed and built during secondary school in 2015 to capture school talent shows, student activities, and memorable events using locally available and recovered electronic components.",
+
+  summary:
+    "Developed to provide an affordable recording solution for school activities when suitable camera equipment was unavailable. The prototype was assembled using salvaged electronic components from damaged and unused mobile phones, demonstrating practical electronics design, hardware integration, and resourceful problem-solving.",
+
+  skills: [
+    "Electronics Assembly",
+    "Hardware Prototyping",
+    "Electronic Component Integration",
+    "Reverse Engineering",
+    "Troubleshooting",
+    "Soldering",
+    "Hardware Design",
+    "Creative Problem Solving",
+    "Product Development",
+    "Technical Innovation",
+  ],
+
+  intendedApplication:
+    "A portable recording device intended to capture video and audio during school talent shows, student performances, educational activities, and community events where conventional recording equipment was unavailable or unaffordable.",
+
+  limitations:
+    "The recording system was an early-stage electronics prototype constructed using recovered components from damaged and unused mobile phones. Further development would be needed to improve image quality, audio capture, battery efficiency, physical durability, and overall reliability before developing it into a modern consumer recording product.",
+
+  caseStudy: {
+    context: [
+      "The Audio and Video Recording System is a portable camera prototype that I designed and built during secondary school to capture both video and audio recordings.",
+
+      "The project was developed to provide a practical recording solution for school talent shows and student activities at a time when the school did not have a camera available to document these events. Beyond solving this immediate need, the project also served as an opportunity to strengthen my understanding of electronics by designing and assembling a functional recording device using locally available materials.",
+
+      "Although this was one of my earliest engineering projects, developed during my secondary school years, it demonstrates my long-standing passion for electronics, hands-on engineering, and designing practical technologies that solve real-world challenges using locally available resources. This project laid the foundation for many of the larger engineering and STEM innovations I developed in the years that followed.",
+
+      "My interest in electronics and innovation inspired me to design this recording system after recognizing a practical challenge within my school community.",
+
+      "During school talent shows and other student activities, there was no camera available to record performances or preserve memorable moments. I wanted to create a simple and affordable solution that would allow these events to be documented while also challenging myself to build a functional electronic device from recovered components.",
+
+      "This project became one of my earliest experiences in designing practical technology that addressed a real need within my community.",
+    ],
+
+    problem: [
+      "My school had limited access to suitable audio and video recording equipment for documenting talent shows, student performances, and other school activities.",
+
+      "Without a camera, it was difficult to record important school events or preserve memories of student performances.",
+
+      "Purchasing new recording equipment and electronic components was challenging because of limited financial resources and the availability of suitable devices.",
+
+      "This situation created an opportunity to explore how recovered electronic components could be reused to develop an affordable and functional recording solution.",
+    ],
+
+    solution: [
+      "To address this challenge, I designed and assembled a portable audio and video recording system capable of capturing both sound and video.",
+
+      "Rather than purchasing new components, I recovered usable electronic parts from broken and unused mobile phones and integrated them into a working prototype. This approach demonstrated how electronic waste can be repurposed into functional technology while reducing development costs.",
+
+      "The prototype incorporated essential recording components, including a camera lens, microphone, display screen, storage components, rechargeable battery, electrical wiring, and supporting electronic circuits.",
+
+      "The completed prototype enabled me to record school talent shows and other student activities using a device I had built myself.",
+
+      "The project demonstrated how creativity, electronics knowledge, and locally available resources could be combined to develop practical technological solutions.",
+    ],
+
+    process: [
+      {
+        title: "01 — Problem Identification & Concept Development",
+        items: [
+          "Identified the lack of recording equipment during school talent shows and student activities.",
+          "Defined the project objective of developing an affordable and portable audio and video recording device.",
+          "Explored ways to reuse electronic components from damaged and unused mobile phones.",
+          "Developed the initial concept and planned the recording system layout.",
+        ],
+      },
+      {
+        title: "02 — Component Recovery & Selection",
+        items: [
+          "Collected damaged and unused mobile phones as sources of electronic components.",
+          "Identified reusable components suitable for the recording prototype.",
+          "Recovered essential components, including camera-related parts, display components, microphone, and electronic circuits.",
+          "Selected supporting materials and components for constructing the recording system.",
+        ],
+      },
+      {
+        title: "03 — Hardware Design & System Assembly",
+        items: [
+          "Designed the physical layout and arrangement of the recording components.",
+          "Integrated the camera lens and video recording components.",
+          "Installed the microphone for audio recording.",
+          "Connected the display screen and video display module.",
+          "Integrated the memory card storage components.",
+          "Connected the rechargeable battery and power switch.",
+          "Assembled supporting electronic circuits and wiring.",
+        ],
+      },
+      {
+        title: "04 — Testing & Troubleshooting",
+        items: [
+          "Tested the system's audio and video recording functions.",
+          "Checked the operation of the camera and display components.",
+          "Evaluated component connections and power supply functionality.",
+          "Identified and addressed problems encountered during system integration.",
+          "Conducted repeated testing to improve the reliability of the recording prototype.",
+        ],
+      },
+      {
+        title: "05 — Practical Demonstration",
+        items: [
+          "Used the completed prototype to record school talent shows and student activities.",
+          "Demonstrated the recording device during a school talent show.",
+          "Observed the practical operation of the recording system in a real-world school environment.",
+          "Gained experience presenting and demonstrating a self-developed electronics project.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Electronic Components",
+        items: [
+          "Camera Lens",
+          "Microphone",
+          "Display Screen",
+          "Flashlight",
+          "Memory Card Storage",
+          "Video Display Module",
+          "Rechargeable Battery",
+          "Power Switch",
+          "Supporting Electronic Circuits",
+          "Electrical Wiring",
+        ],
+      },
+      {
+        title: "Materials & Component Sources",
+        items: [
+          "Damaged Mobile Phones",
+          "Unused Mobile Phone Components",
+          "Recovered Electronic Modules",
+          "Locally Available Electronic Materials",
+          "Supporting Assembly Materials",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Assembly",
+          "Component Recovery and Reuse",
+          "Hardware Prototyping",
+          "Electronic Component Integration",
+          "Soldering",
+          "Hardware Design",
+          "Testing and Troubleshooting",
+          "Creative Problem Solving",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the biggest challenges during the development process was the limited availability of electronic materials and specialized equipment.",
+
+      "Obtaining suitable camera and recording components was difficult because of limited resources and access to new electronic devices.",
+
+      "To overcome these limitations, I carefully salvaged usable parts from damaged mobile phones and adapted them for the prototype.",
+
+      "Integrating different electronic components into a functional recording system required careful assembly, troubleshooting, and repeated testing.",
+
+      "This experience strengthened my ability to work creatively with limited resources while improving my practical electronics, hardware integration, and problem-solving skills.",
+    ],
+
+    outcome: [
+      "The completed prototype successfully recorded school talent shows and student activities, providing a practical solution where recording equipment was unavailable.",
+
+      "The project also marked one of my earliest public innovation presentations, as I demonstrated the camera during a school talent show.",
+
+      "More importantly, the experience deepened my understanding of electronics, hardware integration, and product development, reinforcing my passion for designing technologies that solve real-world problems.",
+
+      "The project demonstrated the potential of reusing electronic components from damaged devices to create functional technology solutions while minimizing development costs.",
+
+      "Through this experience, I gained confidence in designing, assembling, testing, and improving electronic systems, which later contributed to my continued involvement in engineering, robotics, and STEM innovation projects.",
+    ],
+
+    showcases: [
+      {
+        title: "School Talent Show — Prototype Demonstration",
+        detail:
+          "The Audio and Video Recording System was demonstrated during a school talent show, providing an opportunity to present an early electronics innovation and demonstrate its practical recording functionality.",
+      },
+      {
+        title: "School Events & Student Activities",
+        detail:
+          "The prototype was used to capture audio and video recordings of school talent shows and student activities, helping document events where conventional recording equipment was unavailable.",
+      },
+    ],
+
+    future: [
+      "Improve video recording quality through higher-quality imaging technology.",
+      "Enhance audio capture and recording clarity.",
+      "Improve battery efficiency and power management.",
+      "Introduce more durable hardware components and protective housing.",
+      "Improve overall recording performance and reliability.",
+      "Explore modern camera systems and imaging technologies.",
+      "Investigate opportunities to collaborate with consumer electronics and camera technology companies.",
+      "Continue developing the concept toward an affordable and reliable recording solution.",
+      "Contribute to the development of practical electronic products that improve access to technology for communities with limited resources.",
+    ],
   },
+},
+
   {
     slug: "antenna-support-system",
     title: "Antenna Support System",
