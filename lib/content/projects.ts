@@ -944,29 +944,176 @@ export const projects: Project[] = [
       ],
     },
   },
-  {
-    slug: "smart-fuel-gauge-budget-tracker",
-    title: "Smart Fuel Gauge and Budget Tracker App",
-    category: "Data & Software",
-    year: "2026",
-    type: "Academic team project (2 members)",
-    status: "Completed academic project",
-    purpose:
-      "A MATLAB application that combines fuel monitoring, trip planning, and budget tracking in one interface.",
-    summary:
-      "Built for a MATLAB Programming course at Alfred University. Calculates remaining range, daily consumption, monthly cost, and whether a planned trip needs refuelling.",
-    skills: [
-      "MATLAB programming",
-      "Interface design",
-      "Calculation modelling",
-      "Team collaboration",
+  
+{
+  slug: "smart-fuel-gauge-budget-tracker",
+  title: "Smart Fuel Gauge and Budget Tracker App",
+  category: "Engineering Design, Software Development & Data Analytics",
+  year: "2026",
+  type: "MATLAB Application Development Project (Team Project – 2 Members)",
+  status: "Completed academic project",
+
+  purpose:
+    "The Smart Fuel Gauge and Budget Tracker App is a MATLAB-based application developed by a two-person team at Alfred University. The project was designed to help vehicle owners monitor fuel levels, estimate driving range, track fuel consumption, analyze travel requirements, and manage fuel-related expenses through an interactive and user-friendly interface.",
+
+  summary:
+    "Developed during the second semester of 2026 for a MATLAB Programming course at Alfred University, USA. The application combines fuel monitoring, trip planning, and budget tracking into a single system, enabling users to make informed decisions about fuel usage and transportation costs.",
+
+  skills: [
+    "MATLAB Programming",
+    "Software Development",
+    "Graphical User Interface (GUI) Design",
+    "Data Analysis",
+    "Algorithm Development",
+    "Problem Solving",
+    "Team Collaboration",
+    "Technical Documentation",
+    "Data Visualization",
+    "User Experience Design",
+  ],
+
+  intendedApplication:
+    "An interactive fuel management and transportation budgeting application designed to help vehicle owners estimate fuel consumption, monitor remaining fuel, calculate driving range, plan trips, manage transportation expenses, and determine when refueling may be necessary.",
+
+  limitations:
+    "The application is an academic software project that performs calculations based on vehicle information and fuel data entered by users. Its estimates depend on the accuracy of the input values and assumptions. The current application does not include direct vehicle sensor connectivity, GPS-based route optimization, cloud synchronization, or artificial intelligence-powered predictions. These features may be explored in future development.",
+
+  caseStudy: {
+    context: [
+      "The idea for this project emerged from the everyday challenges many drivers face in managing fuel consumption and transportation expenses.",
+
+      "Drivers often need to estimate how far they can travel with the fuel remaining in their vehicles, determine whether a planned trip is possible without refueling, and understand the financial impact of their fuel usage. However, these calculations are frequently performed manually or are not easily accessible in one place.",
+
+      "To address this challenge, our team developed the Smart Fuel Gauge and Budget Tracker App as a practical solution that combines fuel monitoring, trip analysis, and budget estimation into a single interactive application.",
+
+      "The goal was to create a tool that helps users make better decisions regarding fuel management while improving convenience and cost awareness.",
     ],
-    caseStudy: {
-      outcome: [
-        "The app estimates remaining fuel percentage, driving range, travel time, daily consumption, monthly expense, and fuel required for a planned trip.",
-      ],
-    },
+
+    solution: [
+      "To solve this problem, our team designed a MATLAB application capable of monitoring current fuel levels, calculating remaining fuel percentages, estimating driving range based on fuel efficiency, and predicting travel time based on average vehicle speed.",
+
+      "The application also supports daily fuel consumption calculations, monthly fuel expense estimations, determining fuel requirements for planned trips, identifying whether refueling is necessary before a trip, tracking fuel usage history, and exporting fuel reports and summaries.",
+
+      "The application provides immediate calculations and visual feedback based on user inputs to assist users in understanding their fuel status and transportation costs.",
+    ],
+
+    process: [
+      {
+        title: "01 — Problem Analysis",
+        items: [
+          "Identified the key challenges associated with fuel monitoring and travel planning.",
+          "Examined the difficulties drivers face when estimating remaining fuel, travel distance, and transportation expenses.",
+          "Defined the main objectives and functional requirements of the application.",
+        ],
+      },
+      {
+        title: "02 — System Design",
+        items: [
+          "Designed the overall application structure and user input sections.",
+          "Planned the fuel calculation engine.",
+          "Designed the visual fuel tank display.",
+          "Planned fuel status indicators.",
+          "Designed fuel usage projections.",
+          "Planned data export functionality.",
+        ],
+      },
+      {
+        title: "03 — Programming & Implementation",
+        items: [
+          "Developed MATLAB algorithms for calculating fuel usage.",
+          "Implemented remaining fuel percentage calculations.",
+          "Developed remaining travel distance estimations.",
+          "Calculated estimated travel time based on average vehicle speed.",
+          "Implemented monthly fuel cost calculations.",
+          "Developed refill cost estimations.",
+          "Implemented trip feasibility analysis to determine whether available fuel is sufficient for planned travel.",
+        ],
+      },
+      {
+        title: "04 — User Interface Development",
+        items: [
+          "Created an interactive graphical user interface (GUI) using MATLAB App Designer.",
+          "Developed input fields for vehicle and fuel information.",
+          "Integrated visual indicators to display fuel status.",
+          "Implemented fuel tank simulations to help users understand calculated results.",
+          "Organized interface components to improve usability and accessibility.",
+        ],
+      },
+      {
+        title: "05 — Data Visualization",
+        items: [
+          "Developed graphical projections showing estimated fuel levels over time.",
+          "Created visual representations of fuel consumption patterns.",
+          "Integrated calculated results with graphical displays to help users interpret fuel usage information.",
+        ],
+      },
+      {
+        title: "06 — Testing & Validation",
+        items: [
+          "Conducted multiple test cases to verify calculation accuracy.",
+          "Validated user inputs and calculation results.",
+          "Tested application behavior under different input conditions.",
+          "Evaluated the reliability of fuel monitoring and travel estimation functions.",
+          "Refined the application to improve accuracy, usability, and overall performance.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Software & Development Tools",
+        items: [
+          "MATLAB",
+          "MATLAB App Designer",
+          "Data Visualization",
+          "User Interface Design",
+        ],
+      },
+      {
+        title: "Programming & Analytical Techniques",
+        items: [
+          "Algorithm Development",
+          "Data Export Functions",
+          "Fuel Consumption Modeling",
+          "Mathematical Calculations",
+          "Travel Distance Estimation",
+          "Fuel Budget Calculations",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the main challenges during development was integrating multiple fuel-related calculations into a single user-friendly application while maintaining accuracy and usability.",
+
+      "Another challenge involved designing an intuitive interface capable of displaying large amounts of information in a clear and organized manner.",
+
+      "The project also required extensive testing to ensure that different input values produced accurate and reliable outputs.",
+    ],
+
+    outcome: [
+      "The project successfully demonstrated how software tools can be used to solve practical transportation and budgeting challenges.",
+
+      "Through this project, our team developed a fully functional MATLAB application capable of supporting fuel monitoring, budget estimation, trip planning, data visualization, and report generation.",
+
+      "The project strengthened our understanding of software development, engineering problem-solving, data analysis, and user-centered design.",
+
+      "It also demonstrated how programming can be applied to address real-world needs beyond traditional engineering applications.",
+    ],
+
+    future: [
+      "Integrate the application with mobile platforms.",
+      "Introduce real-time vehicle sensor connectivity.",
+      "Develop GPS-based route optimization.",
+      "Add fuel price comparison tools.",
+      "Implement predictive fuel consumption analytics.",
+      "Introduce cloud-based data storage.",
+      "Develop vehicle maintenance tracking features.",
+      "Explore artificial intelligence-powered driving recommendations.",
+      "Continue developing the application toward a more comprehensive vehicle management and transportation planning platform.",
+    ],
   },
+},
+
   {
     slug: "better-ladder",
     title: "Better Ladder",
