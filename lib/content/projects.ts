@@ -917,33 +917,186 @@ export const projects: Project[] = [
     ],
   },
 },
-  {
-    slug: "solar-energy-production-prediction",
-    title: "Estimated Annual Solar Energy Production Prediction",
-    category: "Data & Software",
-    year: "2026",
-    type: "Academic team project (2 members)",
-    status: "Completed academic project",
-    purpose:
-      "A machine learning study of large-scale photovoltaic data to estimate annual solar energy output.",
-    summary:
-      "Developed for a Machine Learning course at Alfred University, combining exploratory data analysis, preprocessing, feature engineering, and predictive modelling.",
-    skills: [
-      "Exploratory data analysis",
-      "Data preprocessing",
-      "Feature engineering",
-      "Machine learning",
-      "Technical reporting",
+  
+{
+  slug: "solar-energy-production-prediction",
+  title: "Estimated Annual Solar Energy Production Prediction",
+  category: "Machine Learning & Data Analytics",
+  year: "2026",
+  type: "Academic Team Project (Machine Learning)",
+  status: "Completed Academic Project",
+
+  purpose:
+    "A machine learning project developed to analyze large-scale photovoltaic (PV) energy data, identify patterns in solar energy production, and build a predictive model capable of estimating annual solar energy output.",
+
+  summary:
+    "Developed by a two-member team as part of a Machine Learning course at Alfred University. The project combined Exploratory Data Analysis (EDA), data preprocessing, feature engineering, and machine learning techniques to investigate the factors influencing annual photovoltaic energy production and support renewable energy planning.",
+
+  skills: [
+    "Machine Learning",
+    "Data Analysis",
+    "Exploratory Data Analysis (EDA)",
+    "Predictive Modeling",
+    "Data Cleaning & Preprocessing",
+    "Feature Engineering",
+    "Python-Based Analytics",
+    "Problem Solving",
+    "Team Collaboration",
+    "Technical Communication",
+    "Research and Data Interpretation",
+  ],
+
+  intendedApplication:
+    "A data-driven predictive modeling approach designed to estimate annual photovoltaic energy production and support renewable energy forecasting, solar energy planning, and informed decision-making.",
+
+  limitations:
+    "The project was developed as an academic machine learning study using historical photovoltaic data. Prediction accuracy depends on the quality and representativeness of the dataset, selected features, and model performance. Further validation with additional environmental variables, larger datasets, and new photovoltaic installations would be necessary before using the model for operational energy forecasting.",
+
+  caseStudy: {
+    context: [
+      "As global demand for renewable energy continues to increase, accurately predicting solar energy production has become increasingly important for energy planning and infrastructure development.",
+
+      "Through this project, our team sought to explore how machine learning could be used to analyze photovoltaic system data and generate reliable predictions of annual solar energy production.",
+
+      "The project provided an opportunity to apply machine learning concepts to a real-world energy challenge while gaining practical experience in data analysis, predictive modeling, and interpretation of large datasets.",
     ],
-    caseStudy: {
-      context: [
-        "Accurate production estimates matter for renewable energy planning, and photovoltaic datasets are large enough to make the question a genuine modelling problem.",
-      ],
-      outcome: [
-        "The analysis surfaced system size and geographic location as significant factors in production, and showed how data-driven models can support renewable energy planning decisions.",
-      ],
-    },
+
+    problem: [
+      "Solar energy production is influenced by multiple factors, including photovoltaic system size, geographic location, environmental conditions, installation characteristics, and energy consumption patterns.",
+
+      "Understanding how these variables affect annual energy production can be challenging when working with large datasets.",
+
+      "A data-driven approach was therefore needed to identify important trends, investigate relationships between variables, and improve the estimation of annual solar energy production.",
+    ],
+
+    solution: [
+      "Our team developed a machine learning model capable of predicting annual photovoltaic energy production using historical solar energy data.",
+
+      "The project involved cleaning and preparing raw datasets, engineering relevant features, training and evaluating machine learning models, identifying influential variables affecting solar energy production, and generating predictions based on historical patterns.",
+
+      "By combining data analysis with predictive modeling, the project demonstrated how machine learning techniques can support renewable energy forecasting and planning.",
+    ],
+
+    process: [
+      {
+        title: "01 — Data Cleaning & Preprocessing",
+        items: [
+          "Processed and organized photovoltaic system data.",
+          "Identified and addressed inconsistencies in the dataset.",
+          "Prepared the data for exploratory analysis and machine learning.",
+        ],
+      },
+      {
+        title: "02 — Feature Engineering & Encoding",
+        items: [
+          "Selected relevant variables for predicting annual solar energy production.",
+          "Transformed and prepared numerical and categorical features.",
+          "Applied appropriate encoding techniques to make selected features suitable for model training.",
+        ],
+      },
+      {
+        title: "03 — Exploratory Data Analysis (EDA)",
+        items: [
+          "Investigated trends and relationships within the photovoltaic dataset.",
+          "Analyzed variables influencing annual energy production.",
+          "Explored relationships between photovoltaic system size, geographic location, and energy output.",
+          "Examined solar installation and production patterns to identify useful insights.",
+        ],
+      },
+      {
+        title: "04 — Model Development",
+        items: [
+          "Selected the Random Forest Regressor as the machine learning model.",
+          "Used the model to investigate complex nonlinear relationships between input variables and annual solar energy production.",
+          "Applied the model to a large photovoltaic dataset.",
+          "Explored feature importance to identify influential predictive factors.",
+          "Used the model's ensemble-based approach to reduce sensitivity to noise and data variability.",
+        ],
+      },
+      {
+        title: "05 — Model Evaluation",
+        items: [
+          "Evaluated the model using Mean Absolute Error (MAE).",
+          "Used the R² Score (Coefficient of Determination) to assess model performance.",
+          "Examined prediction errors and the relationship between predicted and actual energy production.",
+          "Interpreted evaluation results to assess prediction accuracy and model effectiveness.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Machine Learning & Data Analytics",
+        items: [
+          "Machine Learning",
+          "Random Forest Regressor",
+          "Predictive Modeling",
+          "Exploratory Data Analysis (EDA)",
+          "Feature Engineering",
+          "Data Cleaning & Preprocessing",
+          "Python-Based Analytics",
+        ],
+      },
+      {
+        title: "Model Evaluation & Interpretation",
+        items: [
+          "Mean Absolute Error (MAE)",
+          "R² Score (Coefficient of Determination)",
+          "Feature Importance Analysis",
+          "Data Visualization",
+          "Statistical Analysis",
+          "Research and Data Interpretation",
+        ],
+      },
+    ],
+
+    contribution: [
+      "Data analysis and interpretation.",
+      "Exploratory Data Analysis (EDA).",
+      "Machine learning workflow development.",
+      "Feature engineering.",
+      "Model evaluation.",
+      "Technical presentation and research poster preparation.",
+      "Discussion and interpretation of project results.",
+    ],
+
+    challenges: [
+      "One of the main challenges was working with a large photovoltaic dataset containing multiple variables that could influence annual energy production.",
+
+      "Preparing the data for machine learning required careful preprocessing, feature selection, and transformation of categorical and numerical variables.",
+
+      "Another challenge involved identifying the most influential factors affecting annual solar energy production while evaluating model performance and prediction reliability.",
+
+      "The project also required interpreting machine learning results in a way that could communicate meaningful insights about renewable energy production and planning.",
+    ],
+
+    outcome: [
+      "The project successfully demonstrated how machine learning can be applied to renewable energy data to estimate annual solar energy production.",
+
+      "The analysis revealed that photovoltaic system size was an important factor influencing annual energy production. Larger PV systems generally showed higher annual energy output.",
+
+      "Energy production patterns varied across utilities and geographic regions, demonstrating the influence of location on solar energy performance.",
+
+      "The dataset indicated an upward trend in photovoltaic adoption and installed solar capacity over time.",
+
+      "The predictive modeling work demonstrated how machine learning can support solar energy forecasting and planning through data-driven analysis.",
+
+      "The project provided practical experience in applying data science techniques to real-world engineering and sustainability challenges while strengthening skills in predictive analytics, data interpretation, and technical problem-solving.",
+
+      "The experience also highlighted the growing role of artificial intelligence and machine learning in supporting renewable energy planning and decision-making.",
+    ],
+
+    future: [
+      "Incorporate additional environmental variables to improve model inputs.",
+      "Explore advanced machine learning algorithms.",
+      "Improve prediction accuracy using larger and more diverse photovoltaic datasets.",
+      "Develop interactive dashboards for solar energy forecasting and data visualization.",
+      "Apply similar predictive modeling techniques to other renewable energy systems.",
+      "Explore the potential application of machine learning in broader renewable energy planning and sustainability projects.",
+    ],
   },
+},
+
   
 
 {
