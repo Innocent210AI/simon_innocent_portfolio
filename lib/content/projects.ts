@@ -1273,19 +1273,197 @@ export const projects: Project[] = [
       "Developed as part of engineering design and assistive technology work at Alfred University.",
     skills: ["Engineering design", "Human-centered design", "Concept development"],
   },
-  {
-    slug: "active-music-speaker",
-    title: "Active Music Speaker",
-    category: "Electronics",
-    year: "Secondary school",
-    type: "Individual project",
-    status: "Built prototype",
-    purpose:
-      "A powered speaker system built during secondary school from available audio components.",
-    summary:
-      "One of the early electronics builds that moved my interest from models toward working audio systems.",
-    skills: ["Electronics assembly", "Soldering", "Audio systems"],
+  
+{
+  slug: "active-music-speaker",
+  title: "Active Music Speaker",
+  category: "Electronics & Communication Systems",
+  year: "2016",
+  type: "Portable Audio System Prototype",
+  status: "Built prototype",
+
+  purpose:
+    "A portable audio system prototype that I designed and built in 2016 to provide affordable access to radio programs and music playback within my community. The speaker featured Bluetooth connectivity, a built-in radio module, rechargeable battery power, and a portable design that allowed it to be carried comfortably like a backpack.",
+
+  summary:
+    "Developed using locally available materials and electronic components, the Active Music Speaker combined electronics, audio technology, and practical product design to create a functional and user-friendly audio system for everyday use, educational programs, and school activities.",
+
+  skills: [
+    "Electronics Assembly",
+    "Soldering & Wiring",
+    "Audio System Integration",
+    "Battery Power Systems",
+    "Product Design",
+    "Technical Problem Solving",
+    "Prototype Development",
+    "Testing & Troubleshooting",
+    "Creativity & Innovation",
+    "Public Presentation Skills",
+  ],
+
+  intendedApplication:
+    "An affordable, portable audio system designed to provide access to educational radio programs, news broadcasts, music, and audio support for school activities, student performances, and community events.",
+
+  limitations:
+    "The project was an early-stage electronics prototype developed using locally available materials and components rather than a commercially manufactured audio system. Further development would be needed to improve audio performance, durability, energy efficiency, and manufacturing quality.",
+
+  caseStudy: {
+    context: [
+      "The Active Music Speaker is a portable audio system prototype that I designed and built in 2016 to provide affordable access to radio programs and music playback within my community. The speaker featured Bluetooth connectivity, a built-in radio module, rechargeable battery power, and a portable design that allowed it to be carried comfortably like a backpack.",
+
+      "The project combined electronics, audio technology, and practical product design to create a functional and user-friendly music system for everyday use.",
+
+      "The inspiration for this project came from a personal challenge. At the time, my family did not own a radio, yet I was highly interested in listening to educational programs, technology discussions, innovation stories, and news broadcasts.",
+
+      "To address this need, I decided to design and build my own portable Active Music Speaker system. My goal was not only to create a device for entertainment but also a tool that could provide access to information and educational content.",
+
+      "In addition, my school lacked sufficient music equipment for student activities and talent shows. Recognizing this need, I began bringing the speaker to school, where it was used to provide audio support during student performances and events.",
+
+      "This project became one of my earliest practical innovations and helped strengthen my passion for electronics design and technology development.",
+    ],
+
+    problem: [
+      "Many households and schools in my local community had limited access to affordable audio equipment.",
+
+      "A lack of radio devices limited access to educational and informational broadcasts.",
+
+      "Portable sound systems were not widely available to everyone in the community.",
+
+      "Some schools had insufficient audio equipment for talent shows and student activities.",
+
+      "The high cost of commercially available speaker systems created additional challenges for individuals and institutions with limited financial resources.",
+
+      "These challenges motivated me to create a low-cost and portable solution using locally available materials and electronic components.",
+    ],
+
+    solution: [
+      "I designed and constructed a portable Active Music Speaker that combined radio reception, Bluetooth connectivity, audio amplification, and rechargeable battery power in one system.",
+
+      "The speaker was capable of playing radio broadcasts and connecting to compatible devices through Bluetooth.",
+
+      "The audio system was designed to amplify sound for both indoor and outdoor use.",
+
+      "The rechargeable battery allowed the device to operate without requiring a continuous external power connection.",
+
+      "The portable structure incorporated carrying straps and wheels to make transportation easier.",
+
+      "The project demonstrated how practical electronics could be used to address everyday challenges while providing educational and entertainment value.",
+    ],
+
+    process: [
+      {
+        title: "01 — Planning & Concept Design",
+        items: [
+          "Defined the project objectives.",
+          "Created sketches and layout designs.",
+          "Selected suitable electronic and structural components.",
+        ],
+      },
+      {
+        title: "02 — Electronics Assembly",
+        items: [
+          "Installed speakers and audio circuitry.",
+          "Integrated the radio module.",
+          "Connected Bluetooth functionality.",
+          "Wired the rechargeable battery system.",
+          "Tested audio performance and power consumption.",
+        ],
+      },
+      {
+        title: "03 — Mechanical Construction",
+        items: [
+          "Built the speaker housing using plastic containers and supporting materials.",
+          "Added wheels for easier transportation.",
+          "Installed carrying straps to allow backpack-style portability.",
+          "Applied finishing materials to improve appearance and durability.",
+        ],
+      },
+      {
+        title: "04 — Testing & Improvement",
+        items: [
+          "Tested audio quality.",
+          "Evaluated battery performance.",
+          "Improved portability and overall system reliability.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Electronic Components",
+        items: [
+          "Speakers",
+          "Radio Module",
+          "Rechargeable Battery",
+          "Electrical Wiring",
+          "Electronic Components",
+        ],
+      },
+      {
+        title: "Structural Materials",
+        items: [
+          "Plastic Containers for the Enclosure",
+          "Wheels",
+          "Carrying Straps",
+          "Protective Finishing Materials",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Assembly",
+          "Soldering & Wiring",
+          "Audio System Integration",
+          "Battery Power Systems",
+          "Product Design",
+          "Prototype Construction",
+          "Testing & Troubleshooting",
+          "Creative Problem Solving",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the main challenges during development was limited access to advanced tools, materials, and electronic components.",
+
+      "To overcome this challenge, I utilized locally available materials and adapted components that could effectively meet the project's requirements while maintaining functionality and affordability.",
+    ],
+
+    outcome: [
+      "The completed Active Music Speaker successfully provided access to radio programs, music playback, and educational content for my family and community.",
+
+      "The project was also used during school talent shows and student activities where audio equipment was unavailable, helping support student participation and creativity.",
+
+      "In addition, the project was presented during STEM-related activities and innovation exhibitions, including the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanga, Tanzania, where it served as an example of practical electronics innovation developed by a young student innovator.",
+
+      "The experience strengthened my confidence in electronics design, problem-solving, and prototype development while encouraging me to pursue larger engineering and technology projects in later years.",
+    ],
+
+    showcases: [
+      {
+        title: "School Talent Shows & Student Activities",
+        detail:
+          "The Active Music Speaker was used to provide audio support during school talent shows and student events where suitable music equipment was unavailable.",
+      },
+      {
+        title: "STEM Youth Boot Camp — ProjeKt Inspire, Tanga, Tanzania",
+        detail:
+          "The prototype was presented during STEM-related activities as an example of practical electronics innovation, demonstrating how locally available materials and technical creativity could be used to develop a functional audio system.",
+      },
+    ],
+
+    future: [
+      "Improve audio performance and sound quality.",
+      "Enhance durability and overall product reliability.",
+      "Improve battery efficiency and energy management.",
+      "Refine the design for better portability and manufacturing quality.",
+      "Explore collaboration with electronics and consumer technology companies.",
+      "Further develop the concept into an affordable and reliable audio product that supports access to information, education, and entertainment in communities with limited technological resources.",
+      "Contribute to the development of practical electronic products that combine affordability, portability, and real-world usefulness for everyday users.",
+    ],
   },
+},
+
   {
     slug: "audio-video-recording-system",
     title: "Audio and Video Recording System",
