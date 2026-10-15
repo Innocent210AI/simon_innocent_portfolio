@@ -2441,19 +2441,252 @@ export const projects: Project[] = [
   },
 },
 
-  {
-    slug: "musical-equipment-prototypes",
-    title: "Musical Equipment Prototypes",
-    category: "Product Design",
-    year: "Secondary school",
-    type: "Individual project",
-    status: "Built prototypes",
-    purpose:
-      "Drum sets and guitars built by hand, some designed to connect to an external microphone system.",
-    summary:
-      "Creative fabrication work that sharpened material selection, structure, and finishing.",
-    skills: ["Fabrication", "Material selection", "Acoustic construction", "Creative design"],
+
+{
+  slug: "musical-equipment-prototypes",
+  title: "Musical Equipment (Drums & Guitar)",
+  category: "Creative & Early Innovation Projects",
+  year: "2017",
+  type: "Mechanical Product Design & Musical Equipment Prototype",
+  status: "Built prototypes",
+
+  purpose:
+    "The Musical Equipment (Drums & Guitar) project is a collection of custom-built musical instrument prototypes that I designed and fabricated using locally available materials. The project combined mechanical engineering principles, product design, craftsmanship, and creativity to develop affordable musical equipment while exploring innovative structural designs and manufacturing techniques.",
+
+  summary:
+    "Rather than simply replicating existing instruments, I focused on developing unique designs that improved portability, ease of assembly, and practical use. The project included a complete prototype drum set with an integrated wheeled base and a functional guitar prototype, demonstrating how locally available materials can be used to create practical and affordable musical equipment.",
+
+  skills: [
+    "Mechanical Product Design",
+    "Prototype Development",
+    "Structural Design",
+    "Manufacturing & Fabrication",
+    "Creative Engineering",
+    "Industrial Design",
+    "Mechanical Assembly",
+    "Technical Drawing",
+    "Precision Measurement",
+    "Product Innovation",
+    "Creative Problem Solving",
+  ],
+
+  intendedApplication:
+    "Affordable and practical musical equipment designed for schools, churches, community organizations, and young musicians. The project explored portable, easy-to-assemble instruments that could support musical performances and educational activities while reducing the cost of accessing musical equipment.",
+
+  limitations:
+    "The musical equipment was developed as an early-stage collection of prototypes using locally available materials rather than industrial manufacturing processes. Further development would be required to improve structural durability, sound quality, manufacturing consistency, portability, and overall product quality before wider production.",
+
+  caseStudy: {
+
+    // PROJECT OVERVIEW & INSPIRATION
+
+    context: [
+      "The Musical Equipment (Drums & Guitar) project is a collection of custom-built musical instrument prototypes that I designed and fabricated using locally available materials. The project combined mechanical engineering principles, product design, craftsmanship, and creativity to develop affordable musical equipment while exploring innovative structural designs and manufacturing techniques.",
+
+      "Rather than simply replicating existing instruments, I focused on developing unique designs that improved portability, ease of assembly, and practical use.",
+
+      "I developed this project after recognizing that imported musical instruments were often too expensive for many schools, churches, and community groups in Tanzania.",
+
+      "This challenge inspired me to explore how locally available materials and practical engineering skills could be used to design functional musical equipment at a significantly lower cost.",
+
+      "Beyond creating instruments for music performance, the project became an opportunity to strengthen my creativity, mechanical design abilities, and hands-on manufacturing skills through the complete design and construction process.",
+    ],
+
+    // PROBLEM IDENTIFIED
+
+    problem: [
+      "Imported musical instruments were often too expensive for many schools, churches, and community groups in Tanzania.",
+
+      "The high cost of conventional musical equipment created challenges for organizations and individuals with limited financial resources.",
+
+      "There was a need to explore affordable alternatives that could be developed using locally available materials while maintaining practical functionality.",
+
+      "These challenges motivated me to design and fabricate musical instrument prototypes that combined affordability, structural design, portability, and practical engineering.",
+    ],
+
+    // SOLUTION DEVELOPMENT
+
+    solution: [
+      "To address this challenge, I designed and built a complete prototype drum set together with a guitar prototype using affordable materials sourced within my local community.",
+
+      "Instead of following conventional drum designs, I introduced several structural improvements that enhanced portability, stability, and ease of transportation while maintaining the instrument's functionality.",
+
+      "The project demonstrated how engineering design principles can be applied to develop practical, affordable products using locally available resources.",
+    ],
+
+    // DESIGN & DEVELOPMENT PROCESS
+
+    process: [
+      {
+        title: "01 — Planning & Concept Development",
+        items: [
+          "Identified the challenges caused by the high cost of imported musical instruments.",
+          "Explored ways to develop affordable musical equipment using locally available materials.",
+          "Developed design concepts for a complete drum set and a functional guitar prototype.",
+          "Focused on innovative structural designs that could improve portability, stability, and ease of assembly.",
+          "Planned the arrangement of mechanical components and supporting structures.",
+        ],
+      },
+      {
+        title: "02 — Materials Selection & Fabrication",
+        items: [
+          "Selected locally available metal and plastic paint cans for the drum structures.",
+          "Used hardwood and softwood for mechanical and supporting components.",
+          "Incorporated PVC pipes, bearings, springs, wheels, tires, screws, nails, bolts, nuts, and other supporting hardware.",
+          "Prepared and assembled materials to construct the drum set and supporting structures.",
+          "Applied practical manufacturing and fabrication techniques throughout the development process.",
+        ],
+      },
+      {
+        title: "03 — Drum Set Design & Construction",
+        items: [
+          "Designed and fabricated a complete prototype drum set.",
+          "Constructed the Bass Drum (Kick Drum).",
+          "Constructed the Snare Drum.",
+          "Developed the Rack Toms.",
+          "Constructed the Floor Tom.",
+          "Integrated the Hi-Hat Cymbal.",
+          "Integrated the Crash Cymbal.",
+          "Integrated the Ride Cymbal.",
+          "Constructed the Bass Drum Pedal.",
+          "Designed and assembled the Hi-Hat Stand.",
+          "Constructed the Cymbal Stands.",
+          "Designed and assembled the Snare Stand.",
+          "Constructed the Drum Throne.",
+          "Produced the Drumsticks.",
+        ],
+      },
+      {
+        title: "04 — Guitar Prototype Development",
+        items: [
+          "Designed and built a functional guitar prototype.",
+          "Used wood, screws, nails, plastic components, and fishing line as strings.",
+          "Applied practical product design and mechanical assembly techniques.",
+          "Explored how locally available materials could be used to create affordable musical instruments.",
+        ],
+      },
+      {
+        title: "05 — Portable Wheeled Base & Structural Design",
+        items: [
+          "Developed an integrated wheeled base for the drum prototype.",
+          "Designed the drum set to be moved easily in different directions.",
+          "Introduced structural features that allowed the components to be assembled and disassembled quickly.",
+          "Improved transportation and storage convenience.",
+          "Focused on balancing portability, stability, and practical functionality.",
+        ],
+      },
+      {
+        title: "06 — Final Assembly & Functional Demonstration",
+        items: [
+          "Assembled the complete drum set and supporting mechanical components.",
+          "Evaluated the structural arrangement and functionality of the instruments.",
+          "Made design adjustments to improve portability, stability, and overall appearance.",
+          "Explored the ability to connect the assembled drum set to an external microphone system for amplified performances.",
+          "Completed the prototype collection for practical demonstrations and presentation.",
+        ],
+      },
+    ],
+
+    // MATERIALS, COMPONENTS & TECHNOLOGIES USED
+
+    tools: [
+      {
+        title: "Materials & Components",
+        items: [
+          "Metal Paint Cans",
+          "Plastic Paint Cans",
+          "Hardwood",
+          "Softwood",
+          "PVC Pipes",
+          "Bearings",
+          "Springs",
+          "Wheels",
+          "Tires",
+          "Screws",
+          "Nails",
+          "Bolts",
+          "Nuts",
+          "Fishing Line for Guitar Strings",
+          "Supporting Mechanical Hardware",
+        ],
+      },
+      {
+        title: "Musical Equipment Developed",
+        items: [
+          "Bass Drum (Kick Drum)",
+          "Snare Drum",
+          "Rack Toms",
+          "Floor Tom",
+          "Hi-Hat Cymbal",
+          "Crash Cymbal",
+          "Ride Cymbal",
+          "Bass Drum Pedal",
+          "Hi-Hat Stand",
+          "Cymbal Stands",
+          "Snare Stand",
+          "Drum Throne",
+          "Drumsticks",
+          "Guitar Prototype",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Mechanical Product Design",
+          "Prototype Development",
+          "Structural Design",
+          "Manufacturing & Fabrication",
+          "Creative Engineering",
+          "Industrial Design",
+          "Mechanical Assembly",
+          "Technical Drawing",
+          "Precision Measurement",
+          "Product Innovation",
+          "Creative Problem Solving",
+        ],
+      },
+    ],
+
+    // CHALLENGE ENCOUNTERED
+
+    challenges: [
+      "One of the biggest challenges was designing durable and functional musical instruments using limited resources and locally available materials.",
+
+      "Balancing structural strength, portability, appearance, and sound quality required multiple design adjustments throughout the construction process.",
+
+      "These challenges strengthened my ability to solve engineering problems creatively while working within practical resource limitations.",
+    ],
+
+    // OUTCOME & IMPACT
+
+    outcome: [
+      "The project successfully demonstrated how engineering design and locally available materials can be combined to produce functional musical equipment.",
+
+      "In 2020, I presented the drum prototype during the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanga, Tanzania. During the presentation, I explained how engineering, design, creativity, and practical manufacturing techniques were applied throughout the development process.",
+
+      "The project also expanded my experience in product development, mechanical fabrication, structural design, and creative engineering while reinforcing my interest in designing practical solutions for everyday challenges.",
+    ],
+
+    // PUBLIC DEMONSTRATIONS & SHOWCASES
+
+    showcases: [
+      {
+        title: "STEM Youth Boot Camp — ProjeKt Inspire, Tanga, Tanzania (2020)",
+        detail:
+          "In 2020, I presented the drum prototype during the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanga, Tanzania. During the presentation, I explained how engineering, design, creativity, and practical manufacturing techniques were applied throughout the development process.",
+      },
+    ],
+
+    // FUTURE IMPROVEMENT
+
+    future: [
+      "My long-term vision is to collaborate with technology companies, product designers, and manufacturers specializing in musical instruments and educational equipment to further improve these prototypes.",
+
+      "Future development will focus on enhancing durability, portability, manufacturing efficiency, and overall product quality while maintaining affordability. I also hope to explore innovative designs that integrate modern engineering techniques with practical user needs, making musical equipment more accessible to schools, community organizations, and young musicians.",
+    ],
   },
+},
+
 ];
 
 export const projectCategories: (ProjectCategory | "All")[] = [
