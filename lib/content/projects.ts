@@ -1680,6 +1680,7 @@ export const projects: Project[] = [
 },
 
   
+
 {
   slug: "antenna-support-system",
   title: "Antenna Support System",
@@ -1687,12 +1688,13 @@ export const projects: Project[] = [
   year: "2017",
   type: "Radio Signal Enhancement System Prototype",
   status: "Built prototype",
+  featured: "support",
 
   purpose:
     "The Antenna Support System is a radio signal enhancement prototype that I designed and built during my secondary school years to improve radio reception in areas with weak signal coverage.",
 
   summary:
-    "The project was developed to address communication challenges within my community, where poor radio reception limited access to educational programs, news broadcasts, and other important public information. By improving signal quality, the system enabled more reliable access to radio stations that had previously been difficult to receive.",
+    "Developed to address communication challenges within my community, where poor radio reception limited access to educational programs, news broadcasts, and other important public information. By improving signal quality, the system enabled more reliable access to radio stations that had previously been difficult to receive. This early engineering project demonstrated my growing interest in communication technologies and my commitment to designing practical electronic solutions using locally available resources.",
 
   skills: [
     "Electronics Assembly",
@@ -1713,21 +1715,13 @@ export const projects: Project[] = [
     "A practical and affordable radio signal enhancement system designed to improve radio reception and access to educational programs, news broadcasts, community announcements, and important public information in areas with weak signal coverage.",
 
   limitations:
-    "The Antenna Support System was an early-stage prototype developed using locally available materials and recycled electronic components. Further development would be needed to improve signal enhancement performance, operating range, durability, and reliability for broader community use.",
+    "The Antenna Support System was an early-stage prototype developed using locally available materials and recycled electronic components. Further development would be required to improve signal reception performance, operating range, durability, and reliability for broader community use.",
 
   caseStudy: {
 
-    // SECTION 1: PROJECT OVERVIEW
-    overview: [
-      "The Antenna Support System is a radio signal enhancement prototype that I designed and built during my secondary school years to improve radio reception in areas with weak signal coverage.",
-
-      "The project was developed to address communication challenges within my community, where poor radio reception limited access to educational programs, news broadcasts, and other important public information. By improving signal quality, the system enabled more reliable access to radio stations that had previously been difficult to receive.",
-
-      "Although this was one of my early engineering projects, it demonstrates my growing interest in communication technologies and my commitment to designing practical electronic solutions that solve real-world challenges using locally available resources.",
-    ],
-
-    // SECTION 2: INSPIRATION & PROJECT STORY
     context: [
+      "Although this was one of my early engineering projects, it demonstrates my growing interest in communication technologies and my commitment to designing practical electronic solutions that solve real-world challenges using locally available resources.",
+
       "The inspiration for this project came from a challenge I experienced in my own community.",
 
       "Many radio stations could not be received clearly because of weak signal strength, making it difficult for families to access educational content, community announcements, and important news.",
@@ -1737,7 +1731,16 @@ export const projects: Project[] = [
       "This project became another important milestone in my journey of applying engineering knowledge to improve everyday life.",
     ],
 
-    // SECTION 3: SOLUTION DEVELOPMENT
+    problem: [
+      "Many families in my community experienced difficulties accessing radio stations because of weak radio signal coverage.",
+
+      "Poor radio reception limited access to educational programs, news broadcasts, community announcements, and other important public information.",
+
+      "The limited availability of affordable communication equipment made it challenging for households to improve radio reception using commercially available solutions.",
+
+      "These challenges motivated me to develop a practical and affordable antenna support system using locally available materials and electronic components.",
+    ],
+
     solution: [
       "To improve radio reception, I designed a prototype that enhanced the performance of a standard radio antenna.",
 
@@ -1746,38 +1749,83 @@ export const projects: Project[] = [
       "The completed prototype provided a practical and low-cost solution for improving communication and access to information in areas affected by poor radio signal coverage.",
     ],
 
-    // SECTION 4: DESIGN AND DEVELOPMENT PROCESS
     process: [
       {
-        title: "Prototype Design and Assembly",
+        title: "01 — Concept Development and System Design",
         items: [
-          "The prototype was designed and assembled using locally available materials and electronic components.",
-
-          "Throughout the development process, I assembled, tested, and refined the prototype to improve signal reception while ensuring the structure remained lightweight and easy to use.",
+          "Identified the communication challenges caused by weak radio signals within my community.",
+          "Developed the concept of an antenna support system designed to improve radio reception.",
+          "Explored ways to enhance the performance of a standard radio antenna using affordable materials.",
+          "Planned the arrangement of structural and electronic components.",
+        ],
+      },
+      {
+        title: "02 — Prototype Construction",
+        items: [
+          "Designed and assembled the prototype using locally available materials and electronic components.",
+          "Used a large aluminum bowl as a signal reflector.",
+          "Constructed the support structure using PVC pipes and a soft wood frame.",
+          "Integrated the radio antenna into the supporting structure.",
+          "Applied protective paint and finishing materials to the prototype.",
+        ],
+      },
+      {
+        title: "03 — Electronics Integration",
+        items: [
+          "Integrated a rechargeable battery and power switch.",
+          "Connected electrical wiring and supporting electronic components.",
+          "Incorporated LED indicators for signal status.",
+          "Reused electronic components recovered from unused mobile phones.",
+          "Assembled and connected the components to support the intended radio reception functions.",
+        ],
+      },
+      {
+        title: "04 — Testing and Improvement",
+        items: [
+          "Tested different antenna configurations to evaluate radio reception.",
+          "Adjusted the arrangement of the signal reflector and antenna components.",
+          "Evaluated the ability of the system to receive previously weak or unavailable radio stations.",
+          "Repeated testing and refinement to improve reception performance.",
+          "Improved the overall prototype while ensuring the structure remained lightweight and easy to use.",
         ],
       },
     ],
 
-    // SECTION 5: MATERIALS & TECHNOLOGIES USED
     tools: [
       {
-        title: "Key Materials and Components",
+        title: "Materials and Components",
         items: [
-          "Large aluminum bowl used as a signal reflector",
-          "Radio antenna",
-          "Rechargeable battery",
-          "Power switch",
-          "PVC pipe support structure",
-          "Soft wood frame",
-          "LED indicators for signal status",
-          "Wiring",
-          "Recycled electronic components recovered from unused mobile phones",
-          "Protective paint and finishing materials",
+          "Large Aluminum Bowl Used as a Signal Reflector",
+          "Radio Antenna",
+          "Rechargeable Battery",
+          "Power Switch",
+          "PVC Pipe Support Structure",
+          "Soft Wood Frame",
+          "LED Indicators for Signal Status",
+          "Electrical Wiring",
+          "Recycled Electronic Components Recovered from Unused Mobile Phones",
+          "Protective Paint and Finishing Materials",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Assembly",
+          "Communication Systems",
+          "Hardware Prototyping",
+          "Signal Enhancement",
+          "Circuit Design",
+          "Soldering",
+          "Troubleshooting",
+          "Hardware Testing",
+          "Reverse Engineering",
+          "Technical Drawing",
+          "Creative Problem Solving",
+          "Product Development",
         ],
       },
     ],
 
-    // SECTION 6: CHALLENGE ENCOUNTERED
     challenges: [
       "One of the major challenges was working with limited electronic components and testing equipment.",
 
@@ -1786,7 +1834,6 @@ export const projects: Project[] = [
       "This experience strengthened my creativity, patience, and practical problem-solving skills while working with limited resources.",
     ],
 
-    // SECTION 7: OUTCOME & IMPACT
     outcome: [
       "The completed prototype successfully improved radio reception, allowing my family and others to access radio stations that had previously been unavailable because of weak signals.",
 
@@ -1797,7 +1844,19 @@ export const projects: Project[] = [
       "The project was also presented during my secondary school talent show as one of my early engineering innovations. Later, in December 2021, I showcased the project at the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanga, Tanzania, where I shared its design, purpose, and community impact with students, educators, and innovation stakeholders.",
     ],
 
-    // SECTION 8: FUTURE IMPROVEMENT
+    showcases: [
+      {
+        title: "Secondary School Talent Show — Prototype Presentation",
+        detail:
+          "The Antenna Support System was presented during my secondary school talent show as one of my early engineering innovations, demonstrating how practical electronics and locally available materials could be used to improve radio reception.",
+      },
+      {
+        title: "STEM Youth Boot Camp — December 2021",
+        detail:
+          "The project was showcased during the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanga, Tanzania. I presented its design, purpose, functionality, and community impact to students, educators, and innovation stakeholders.",
+      },
+    ],
+
     future: [
       "In the future, I plan to further develop this prototype by improving its signal amplification capability, increasing its operating range, enhancing its durability, and optimizing its overall design for broader community use.",
 
