@@ -1865,19 +1865,154 @@ export const projects: Project[] = [
   },
 },
 
-  {
-    slug: "data-support-system",
-    title: "Data Support System (DS)",
-    category: "Electronics",
-    year: "Secondary school",
-    type: "Individual project",
-    status: "Built prototype",
-    purpose:
-      "A network support experiment prompted by unreliable local phone communication.",
-    summary:
-      "Built to test whether simple, locally assembled hardware could improve the reliability of everyday communication.",
-    skills: ["Communication systems", "Electronics assembly", "Troubleshooting"],
+  
+{
+  slug: "data-support-system",
+  title: "Data Support (DS)",
+  category: "Electronics & Communication Systems",
+  year: "2018",
+  type: "Experimental Communication Electronics Prototype",
+  status: "Built prototype",
+
+  purpose:
+    "Data Support (DS) is an experimental electronics prototype developed to explore practical hardware concepts that could help improve communication in areas experiencing unreliable mobile network coverage.",
+
+  summary:
+    "The project was designed using locally available materials as an experimental approach to addressing communication challenges faced by communities living in areas with weak mobile signal reception.",
+
+  skills: [
+    "Electronics Prototyping",
+    "Experimental Hardware Design",
+    "Communication Systems Fundamentals",
+    "Soldering & Circuit Assembly",
+    "Creative Problem Solving",
+    "Prototype Development",
+    "Technical Drawing",
+    "Critical Thinking",
+  ],
+
+  intendedApplication:
+    "An experimental communication electronics prototype designed to explore practical hardware concepts that could potentially help improve communication in areas experiencing weak or unreliable mobile network coverage.",
+
+  limitations:
+    "The Data Support (DS) project was an experimental prototype developed using basic electronic components and locally available materials. Its ability to improve mobile network reception was not confirmed through standardized signal measurements or technical performance testing. Further research, advanced communication components, and controlled testing would be needed to determine its effectiveness in improving mobile network connectivity.",
+
+  caseStudy: {
+
+    context: [
+      "Data Support (DS) is an experimental electronics prototype developed to explore practical hardware concepts that could help improve communication in areas experiencing unreliable mobile network coverage.",
+
+      "The project was designed using locally available materials as an experimental approach to addressing communication challenges faced by communities living in areas with weak mobile signal reception.",
+
+      "The Data Support (DS) prototype was inspired by the challenge of weak mobile network connectivity in my local community. The project explored simple hardware concepts that aimed to improve communication in areas with unreliable mobile signal coverage.",
+
+      "While growing up, my family and neighbors frequently experienced poor mobile reception, making phone conversations difficult and unreliable. This motivated me to experiment with locally available electronic materials and investigate practical electronics concepts that could contribute to improving communication.",
+
+      "The project also strengthened my curiosity about communication technology and encouraged me to continue exploring how electronics can be used to solve everyday problems within local communities.",
+    ],
+
+    problem: [
+      "Weak mobile network connectivity was a common challenge in my local community, making phone conversations difficult and unreliable.",
+
+      "My family and neighbors frequently experienced poor mobile reception, which created communication challenges in everyday life.",
+
+      "Limited access to advanced electronic equipment and specialized communication components made it difficult to explore possible technical solutions.",
+
+      "These challenges motivated me to experiment with affordable electronic materials and investigate practical hardware concepts that could potentially support better communication.",
+    ],
+
+    solution: [
+      "To explore this challenge, I designed and built the Data Support (DS) prototype using affordable and readily available materials. The project focused on experimenting with basic electronic principles and component arrangements to investigate possible approaches for supporting communication in areas with inconsistent mobile signal reception.",
+
+      "Although the prototype was primarily experimental, it represented an important step in developing my practical electronics skills and problem-solving mindset.",
+    ],
+
+    process: [
+      {
+        title: "01 — Problem Identification & Concept Development",
+        items: [
+          "Identified weak mobile network connectivity as a communication challenge within my local community.",
+          "Explored basic electronics concepts related to communication systems.",
+          "Developed an experimental hardware concept using affordable and locally available materials.",
+        ],
+      },
+      {
+        title: "02 — Materials Selection & Preparation",
+        items: [
+          "Selected magnets, copper wire coils, a USB cable, PVC pipe, soft wood, small nails, glue, and finishing materials.",
+          "Prepared the locally available materials for prototype construction.",
+          "Planned the arrangement of components to support the experimental design.",
+        ],
+      },
+      {
+        title: "03 — Prototype Construction & Assembly",
+        items: [
+          "Constructed the prototype using magnets, copper wire coils, a USB cable, PVC pipe, soft wood, small nails, glue, and various finishing materials.",
+          "Carefully assembled the components to create a functional experimental prototype.",
+          "Applied basic electronics assembly and mechanical construction techniques during development.",
+          "Gained hands-on experience in experimental hardware design and prototype development.",
+        ],
+      },
+      {
+        title: "04 — Experimentation & Testing",
+        items: [
+          "Experimented with basic electronic principles and component arrangements.",
+          "Built and tested the experimental prototype using available materials and resources.",
+          "Explored the practical challenges of developing communication-related hardware with limited equipment.",
+          "Used the development experience to strengthen electronics knowledge, critical thinking, and creative problem-solving skills.",
+        ],
+      },
+    ],
+
+    tools: [
+      {
+        title: "Materials and Components",
+        items: [
+          "Magnets",
+          "Copper Wire Coils",
+          "USB Cable",
+          "PVC Pipe",
+          "Soft Wood",
+          "Small Nails",
+          "Glue",
+          "Various Finishing Materials",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Prototyping",
+          "Experimental Hardware Design",
+          "Communication Systems Fundamentals",
+          "Soldering & Circuit Assembly",
+          "Creative Problem Solving",
+          "Prototype Development",
+          "Technical Drawing",
+          "Critical Thinking",
+        ],
+      },
+    ],
+
+    challenges: [
+      "One of the main challenges during development was the limited availability of advanced electronic equipment and specialized communication components. As a result, I relied on affordable materials and locally available resources to build and test the prototype.",
+
+      "Despite these limitations, the project provided valuable practical experience in experimentation, creative problem-solving, and prototype construction.",
+    ],
+
+    outcome: [
+      "The Data Support (DS) project expanded my understanding of communication electronics and strengthened my ability to transform everyday community challenges into practical engineering experiments.",
+
+      "The project also enhanced my confidence in designing and building electronic prototypes using locally available resources while encouraging further exploration of communication technologies and innovation.",
+    ],
+
+    future: [
+      "In the future, I hope to expand my knowledge of modern communication systems, wireless technologies, and electronics design by collaborating with technology companies, researchers, and engineering professionals.",
+
+      "My long-term vision is to continue developing practical communication technologies that improve connectivity and help address communication challenges in underserved communities.",
+    ],
   },
+},
+
   {
     slug: "simple-wheeled-robot",
     title: "Simple Wheeled Robot",
