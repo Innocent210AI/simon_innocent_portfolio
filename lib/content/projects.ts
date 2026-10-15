@@ -2239,19 +2239,208 @@ export const projects: Project[] = [
   },
 },
 
-  {
-    slug: "remote-control-car",
-    title: "Remote-Control Car",
-    category: "Robotics & Automation",
-    year: "Secondary school",
-    type: "Individual project",
-    status: "Built prototype",
-    purpose:
-      "A remote-controlled vehicle built from locally available materials before any formal electronics training.",
-    summary:
-      "The direct predecessor to later transmitter-and-receiver work on the security robot.",
-    skills: ["Remote control systems", "Mechanical assembly", "Electronics basics"],
+  
+{
+  slug: "remote-control-car",
+  title: "Remote-Controlled Car",
+  category: "Creative & Early Innovation Projects",
+  year: "2017",
+  type: "Remote-Controlled Educational Toy Prototype",
+  status: "Built prototype",
+
+  purpose:
+    "The Remote-Controlled Car is a prototype toy vehicle that I designed and built to provide children with an affordable, enjoyable, and educational play experience. Beyond entertainment, the project demonstrated how simple electronics and mechanical design can be used to introduce children to engineering concepts from an early age.",
+
+  summary:
+    "The prototype also explored the integration of renewable energy by incorporating a small solar charging system, demonstrating the potential of clean energy technologies in future transportation.",
+
+  skills: [
+    "Electronics Prototyping",
+    "Mechanical Design",
+    "Remote-Control Systems",
+    "DC Motor Integration",
+    "Renewable Energy Concepts",
+    "Product Design",
+    "Prototype Development",
+    "Creative Problem Solving",
+    "Technical Drawing",
+    "Public Presentation",
+  ],
+
+  intendedApplication:
+    "An affordable remote-controlled educational toy designed to provide children with an enjoyable play experience while introducing them to basic electronics, mechanical design, remote-control systems, and engineering concepts. A solar-powered version was also developed to explore renewable energy applications in small electric vehicles.",
+
+  limitations:
+    "The Remote-Controlled Car was an early-stage educational toy prototype developed using locally available materials and electronic components. Although one version incorporated a small solar panel for battery charging, further development would be needed to improve durability, remote-control performance, energy efficiency, and overall product quality before commercial production.",
+
+  caseStudy: {
+
+    // PROJECT OVERVIEW & INSPIRATION
+
+    context: [
+      "The Remote-Controlled Car is a prototype toy vehicle that I designed and built to provide children with an affordable, enjoyable, and educational play experience. Beyond entertainment, the project demonstrated how simple electronics and mechanical design can be used to introduce children to engineering concepts from an early age.",
+
+      "The prototype also explored the integration of renewable energy by incorporating a small solar charging system, demonstrating the potential of clean energy technologies in future transportation.",
+
+      "I developed this project after noticing that many families in my community could not afford to buy commercially manufactured toy cars for their children. I wanted to create a low-cost alternative that children could enjoy while also inspiring curiosity about technology and engineering.",
+
+      "As a young innovator, I enjoyed designing and building functional objects using locally available materials. This project allowed me to combine creativity, electronics, and mechanical design into a product that brought joy to children while strengthening my practical engineering skills.",
+    ],
+
+    // PROBLEM IDENTIFIED
+
+    problem: [
+      "Many families in my community could not afford commercially manufactured toy cars for their children.",
+
+      "The limited availability of affordable educational toys reduced opportunities for children to interact with simple technologies and develop an early interest in engineering.",
+
+      "I wanted to explore how locally available materials and basic electronic components could be used to develop an affordable and enjoyable educational toy.",
+
+      "The project also provided an opportunity to investigate how a small solar charging system could be incorporated into a remote-controlled vehicle.",
+    ],
+
+    // SOLUTION DEVELOPMENT
+
+    solution: [
+      "To address this challenge, I designed and constructed several remote-controlled toy cars using affordable materials that were readily available in my community.",
+
+      "One version of the prototype incorporated a small solar panel for battery charging. This enhancement allowed me to demonstrate the relationship between renewable energy and future electric transportation technologies, showing how solar energy can contribute to sustainable mobility concepts.",
+    ],
+
+    // DESIGN & DEVELOPMENT PROCESS
+
+    process: [
+      {
+        title: "01 — Planning & Concept Development",
+        items: [
+          "Identified the need for affordable and educational toy cars for children in my community.",
+          "Developed the concept of a remote-controlled toy vehicle using locally available materials.",
+          "Explored ways to combine simple electronics, mechanical design, and renewable energy concepts.",
+          "Prepared the initial vehicle design and planned the arrangement of the main components.",
+        ],
+      },
+      {
+        title: "02 — Chassis & Mechanical Construction",
+        items: [
+          "Constructed the vehicle chassis using lightweight wood, thin metal strips, cardboard, and supporting structural materials.",
+          "Selected and installed wheels suitable for the prototype.",
+          "Designed the mechanical structure to support the electronic components and drive system.",
+          "Worked to maintain a lightweight and functional vehicle design.",
+        ],
+      },
+      {
+        title: "03 — Electronics Assembly & Remote-Control Integration",
+        items: [
+          "Installed DC motors to provide vehicle movement.",
+          "Connected electrical wiring and switches.",
+          "Integrated rechargeable batteries to supply electrical power.",
+          "Assembled the electrical connections.",
+          "Integrated the remote-control mechanism into the vehicle.",
+          "Tested the basic movement and operation of the prototype.",
+        ],
+      },
+      {
+        title: "04 — Solar Charging System Integration",
+        items: [
+          "Explored the use of renewable energy in a small remote-controlled vehicle.",
+          "Incorporated a small solar panel into one version of the prototype for battery charging.",
+          "Experimented with different component arrangements to balance charging capability, weight, and overall performance.",
+          "Used the solar-powered version to demonstrate how renewable energy can contribute to future electric transportation concepts.",
+        ],
+      },
+      {
+        title: "05 — Testing, Refinement & Final Design",
+        items: [
+          "Tested the movement and functionality of the remote-controlled toy cars.",
+          "Evaluated the arrangement of mechanical and electronic components.",
+          "Refined the external appearance to create a durable and attractive prototype.",
+          "Made adjustments to improve the overall functionality and design.",
+          "Gained practical experience in electronics assembly, mechanical construction, prototype testing, and product design.",
+        ],
+      },
+    ],
+
+    // MATERIALS, COMPONENTS & TECHNOLOGIES USED
+
+    tools: [
+      {
+        title: "Electronic Components",
+        items: [
+          "DC Motors",
+          "Electrical Wiring",
+          "Switches",
+          "Rechargeable Batteries",
+          "Small Solar Panels",
+          "Remote-Control Components",
+        ],
+      },
+      {
+        title: "Mechanical & Structural Materials",
+        items: [
+          "Wheels",
+          "Lightweight Wood",
+          "Thin Metal Strips",
+          "Cardboard",
+          "Various Structural Materials",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Electronics Prototyping",
+          "Mechanical Design",
+          "Remote-Control Systems",
+          "DC Motor Integration",
+          "Renewable Energy Concepts",
+          "Product Design",
+          "Prototype Development",
+          "Creative Problem Solving",
+          "Technical Drawing",
+          "Prototype Testing",
+        ],
+      },
+    ],
+
+    // CHALLENGE ENCOUNTERED
+
+    challenges: [
+      "One of the primary challenges was working with limited materials and tools while ensuring that the vehicle remained lightweight, durable, and functional.",
+
+      "Developing the solar-powered version also required experimenting with different component arrangements to balance charging capability, weight, and overall performance.",
+
+      "These challenges strengthened my creativity, adaptability, and practical problem-solving skills.",
+    ],
+
+    // OUTCOME & IMPACT
+
+    outcome: [
+      "The completed prototypes were well received by children in my community, providing them with enjoyable and affordable toys while demonstrating the value of locally developed innovation.",
+
+      "In 2020, I presented one of the solar-powered Remote-Controlled Car prototypes during the STEM Youth Boot Camp, organized by ProjeKt Inspire in Tanga, Tanzania. During the presentation, I used the prototype to discuss the future of electric vehicles and the role of solar energy technologies in sustainable transportation.",
+
+      "The project also helped strengthen my confidence in prototype development, public presentation, and communicating engineering concepts to different audiences.",
+    ],
+
+    // PUBLIC DEMONSTRATIONS & SHOWCASES
+
+    showcases: [
+      {
+        title: "STEM Youth Boot Camp — ProjeKt Inspire, Tanga, Tanzania (2020)",
+        detail:
+          "In 2020, I presented one of the solar-powered Remote-Controlled Car prototypes during the STEM Youth Boot Camp organized by ProjeKt Inspire in Tanga, Tanzania. During the presentation, I used the prototype to discuss the future of electric vehicles and the role of solar energy technologies in sustainable transportation.",
+      },
+    ],
+
+    // FUTURE IMPROVEMENT
+
+    future: [
+      "My long-term vision is to collaborate with technology companies specializing in educational toys, electronics, and STEM learning products to transform this prototype into a high-quality educational kit.",
+
+      "Rather than serving only as a toy, future versions could help children develop an early interest in electronics, robotics, renewable energy, and engineering through hands-on learning experiences. I also plan to improve the prototype by enhancing its durability, control system, and energy efficiency while exploring additional interactive learning features.",
+    ],
   },
+},
+
   {
     slug: "musical-equipment-prototypes",
     title: "Musical Equipment Prototypes",
