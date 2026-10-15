@@ -2013,19 +2013,232 @@ export const projects: Project[] = [
   },
 },
 
-  {
-    slug: "simple-wheeled-robot",
-    title: "Simple Wheeled Robot",
-    category: "Robotics & Automation",
-    year: "2023",
-    type: "Individual project",
-    status: "Functional prototype",
-    purpose:
-      "A small wheeled robot used as an introductory robotics demonstration in STEM outreach activities.",
-    summary:
-      "A compact platform for teaching motors, circuits, and control to students meeting robotics for the first time.",
-    skills: ["Robotics", "Motor control", "Electronics assembly", "STEM demonstration"],
+  
+{
+  slug: "simple-wheeled-robot",
+  title: "Simple Wheeled Robot",
+  category: "Robotics & Automation",
+  year: "2025",
+  type: "Educational Mobile Robot Prototype",
+  status: "Functional prototype",
+
+  purpose:
+    "The Simple Wheeled Robot is an educational mobile robot prototype that I designed and built in 2025 while volunteering at STEM Park (ProjeKt Inspire, Dar es Salaam - Tanzania). The project was developed to introduce primary school students to the fundamentals of robotics, automation, artificial intelligence (AI), and engineering through hands-on learning.",
+
+  summary:
+    "Rather than focusing only on classroom theory, this prototype allows students to observe how a mobile robot is designed, assembled, and operated, helping them connect STEM concepts with real-world technologies. Although intentionally simple in design, the project demonstrates my commitment to creating educational technologies that inspire young learners to explore robotics, engineering, and innovation from an early age.",
+
+  skills: [
+    "Robotics Prototyping",
+    "Mechanical Design",
+    "Electronics Assembly",
+    "Mobile Robot Development",
+    "Engineering Design",
+    "Hardware Integration",
+    "STEM Education",
+    "Technical Demonstration",
+    "Problem Solving",
+    "Creative Thinking",
+    "Innovation",
+    "Product Prototyping",
+  ],
+
+  intendedApplication:
+    "An affordable educational mobile robot designed to introduce primary school students to basic robotics, electric motors, mechanical movement, electronic systems, automation concepts, and engineering problem-solving through practical STEM demonstrations and interactive learning activities.",
+
+  limitations:
+    "The Simple Wheeled Robot is a basic educational prototype developed using affordable and locally available materials. It was designed to demonstrate fundamental robotic movement and electronic control rather than advanced autonomous operation. Programmable microcontrollers, sensors, wireless communication, and autonomous navigation are potential future improvements and are not presented as existing features of the prototype.",
+
+  caseStudy: {
+
+    // PROJECT OVERVIEW & INSPIRATION
+
+    context: [
+      "The Simple Wheeled Robot is an educational mobile robot prototype that I designed and built in 2025 while volunteering at STEM Park (ProjeKt Inspire, Dar es Salaam - Tanzania). The project was developed to introduce primary school students to the fundamentals of robotics, automation, artificial intelligence (AI), and engineering through hands-on learning.",
+
+      "Rather than focusing only on classroom theory, this prototype allows students to observe how a mobile robot is designed, assembled, and operated, helping them connect STEM concepts with real-world technologies.",
+
+      "Although intentionally simple in design, the project demonstrates my commitment to creating educational technologies that inspire young learners to explore robotics, engineering, and innovation from an early age.",
+
+      "During my experience teaching STEM activities to young students, I realized that many children were curious about robots but had never seen or interacted with one in person.",
+
+      "I wanted to create an affordable educational robot that students could easily understand while introducing them to the basic principles behind modern robotic systems.",
+
+      "My goal was not simply to demonstrate how a robot moves, but to encourage students to think about how robots are designed to solve real-world problems in industries such as agriculture, healthcare, manufacturing, logistics, and service automation.",
+
+      "This project became one of the practical tools I used to spark curiosity, creativity, and engineering thinking among young learners.",
+    ],
+
+    // PROBLEM IDENTIFIED
+
+    problem: [
+      "During my experience teaching STEM activities, I observed that many primary school students were interested in robotics but had limited opportunities to see or interact with real robots.",
+
+      "Learning robotics through classroom explanations alone can make it difficult for young students to understand how mechanical and electronic components work together.",
+
+      "Affordable and easy-to-understand robotics demonstration tools can help students connect theoretical STEM concepts with practical engineering applications.",
+
+      "These observations motivated me to develop a simple educational robot that could support hands-on learning and encourage interest in robotics and technology.",
+    ],
+
+    // SOLUTION DEVELOPMENT
+
+    solution: [
+      "To support practical robotics education, I designed a lightweight mobile robot capable of demonstrating the basic principles of robotic movement and electronic control.",
+
+      "The prototype helped students understand how different electronic components work together to create a functioning robotic system.",
+
+      "By interacting with robots, students were introduced to important concepts such as mobile robot design, electric motors and motion, mechanical movement, basic electronic systems, automation concepts, an introduction to Artificial Intelligence (AI), and problem-solving through engineering.",
+
+      "The project provided a practical and accessible way to introduce young learners to robotics while encouraging curiosity, creativity, and hands-on engineering exploration.",
+    ],
+
+    // DESIGN AND DEVELOPMENT PROCESS
+
+    process: [
+      {
+        title: "01 — Planning & Concept Development",
+        items: [
+          "Identified the need for an affordable educational robot suitable for primary school STEM demonstrations.",
+          "Developed a simple mobile robot concept that students could easily observe and understand.",
+          "Explored ways to demonstrate basic robotic movement and electronic control using affordable materials.",
+          "Planned the overall robot structure and arrangement of electronic and mechanical components.",
+        ],
+      },
+      {
+        title: "02 — Mechanical Design & Chassis Construction",
+        items: [
+          "Designed the robot body using simple, affordable, and locally available materials.",
+          "Constructed the robot structure using cardboard sheets and supporting materials.",
+          "Assembled the robot wheels and drive mechanism.",
+          "Used glue and structural materials to support the chassis construction.",
+          "Focused on creating a lightweight and stable design suitable for classroom demonstrations.",
+        ],
+      },
+      {
+        title: "03 — Electronics Assembly & Integration",
+        items: [
+          "Installed DC motors to support the robot's movement.",
+          "Integrated a rechargeable battery to supply electrical power.",
+          "Connected electrical wiring and supporting electronic components.",
+          "Installed LED lights as part of the electronic demonstration system.",
+          "Assembled the electronic components and integrated them with the mechanical structure.",
+        ],
+      },
+      {
+        title: "04 — Testing & Improvement",
+        items: [
+          "Tested the robot's movement and stability.",
+          "Evaluated the operation of the motors and electronic components.",
+          "Checked the mechanical structure and component connections.",
+          "Made adjustments to improve functionality and ease of demonstration.",
+          "Refined the prototype to make it reliable and simple enough for young students to understand.",
+        ],
+      },
+      {
+        title: "05 — Educational Demonstration",
+        items: [
+          "Used the completed robot during STEM learning activities at STEM Park (ProjeKt Inspire).",
+          "Demonstrated basic robotic movement and electronic control to primary school students.",
+          "Explained how mechanical and electronic components work together in a mobile robot.",
+          "Introduced students to basic concepts of robotics, automation, and engineering.",
+          "Encouraged students to explore how robotic technologies can solve real-world problems.",
+        ],
+      },
+    ],
+
+    // MATERIALS, COMPONENTS & TECHNOLOGIES USED
+
+    tools: [
+      {
+        title: "Materials and Components",
+        items: [
+          "Cardboard Sheets",
+          "DC Motors",
+          "Robot Wheels",
+          "Rechargeable Battery",
+          "LED Lights",
+          "Electrical Wiring",
+          "Glue and Structural Materials",
+          "Supporting Electronic Components",
+        ],
+      },
+      {
+        title: "Technical Skills Applied",
+        items: [
+          "Robotics Prototyping",
+          "Mechanical Design",
+          "Electronics Assembly",
+          "Mobile Robot Development",
+          "Engineering Design",
+          "Hardware Integration",
+          "Prototype Construction",
+          "Testing and Troubleshooting",
+          "Creative Problem Solving",
+        ],
+      },
+      {
+        title: "Educational Technologies & Applications",
+        items: [
+          "STEM Education",
+          "Practical Robotics Demonstration",
+          "Basic Automation Concepts",
+          "Electric Motors and Motion",
+          "Mechanical Movement",
+          "Basic Electronic Systems",
+          "Introduction to Artificial Intelligence (AI)",
+          "Engineering Problem-Solving",
+        ],
+      },
+    ],
+
+    // CHALLENGE ENCOUNTERED
+
+    challenges: [
+      "One challenge during development was designing a robot that was both simple enough for young students to understand and durable enough to withstand repeated classroom demonstrations.",
+
+      "Working with affordable materials also required careful design decisions to maintain stability, functionality, and ease of assembly.",
+
+      "These challenges strengthened my practical engineering, prototyping, and iterative design skills.",
+    ],
+
+    // OUTCOME & IMPACT
+
+    outcome: [
+      "The completed prototype was successfully used as a practical educational tool during STEM learning activities for primary school students at STEM Park (ProjeKt Inspire).",
+
+      "The robot helped students visualize how mobile robots function and encouraged them to think about future applications of robotics in solving everyday challenges.",
+
+      "Beyond demonstrating engineering concepts, the project inspired discussions about careers in robotics, artificial intelligence, automation, and technology innovation, helping young learners appreciate how engineering can improve society.",
+    ],
+
+    // EDUCATIONAL DEMONSTRATIONS
+
+    showcases: [
+      {
+        title: "STEM Park — ProjeKt Inspire, Dar es Salaam, Tanzania",
+        detail:
+          "The Simple Wheeled Robot was used as an educational demonstration tool during STEM learning activities for primary school students. The prototype helped introduce basic robotics concepts through practical observation and interaction.",
+      },
+      {
+        title: "Classroom Robotics Demonstration — 2025",
+        detail:
+          "The robot was demonstrated to young learners to explain robotic movement, electric motors, mechanical design, electronic components, and the basic principles of automation.",
+      },
+    ],
+
+    // FUTURE IMPROVEMENT
+
+    future: [
+      "In the future, I plan to expand this prototype by integrating programmable microcontrollers, sensors, wireless communication, and autonomous navigation features.",
+
+      "My long-term vision is to develop a series of affordable robotics education kits that introduce students to programming, robotics, automation, and artificial intelligence through project-based learning.",
+
+      "I also hope to collaborate with organizations and technology companies specializing in robotics, AI, and STEM education to make these educational tools accessible to more schools across Tanzania, Africa, and beyond.",
+    ],
   },
+},
+
   {
     slug: "remote-control-car",
     title: "Remote-Control Car",
