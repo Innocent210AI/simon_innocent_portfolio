@@ -21,10 +21,10 @@ export const site = {
 }
 
 export const navItems = [
+  { to: '/about', label: 'About' },
   { to: '/work', label: 'Work' },
   { to: '/journey', label: 'Journey' },
   { to: '/impact', label: 'Impact' },
-  { to: '/about', label: 'About' },
   { to: '/contact', label: 'Contact' },
 ] as const
 
