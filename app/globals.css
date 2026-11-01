@@ -191,6 +191,26 @@
   font-weight: 500;
 }
 
+/* Page and section headers: matches the About page header (text-6xl on desktop) */
+@utility header-label {
+  font-family: var(--font-mono);
+  font-size: clamp(2rem, 6vw, 3.75rem);
+  line-height: 1.05;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Case-study section titles (Context, The problem, …) */
+@utility block-label {
+  font-family: var(--font-mono);
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 /* ---------- Surfaces & lighting ---------- */
 
 @utility grid-texture {

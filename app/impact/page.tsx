@@ -25,7 +25,7 @@ export default function ImpactPage() {
         <div className="pointer-events-none absolute inset-0 grid-texture opacity-60" />
         <div className="pointer-events-none absolute inset-0 radial-glow" />
         <div className="shell relative">
-          <Reveal className="tech-label text-electric">Impact</Reveal>
+          <Reveal className="header-label text-electric">Impact</Reveal>
           <h1 className="mt-6 display max-w-4xl text-arctic">Teaching is the part that scales.</h1>
           <Reveal delay={120} className="mt-7 max-w-2xl body-lg text-mist/70">
             Prototypes reach one room at a time. Students carry the thinking further — which is why
@@ -44,11 +44,7 @@ export default function ImpactPage() {
               decoding="async"
               className="aspect-[21/9] w-full object-cover opacity-85"
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-midnight via-midnight/20 to-transparent" />
-            <span className="absolute right-4 top-4 rounded-full border border-white/15 bg-midnight/70 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-steel backdrop-blur">
-              Render
-            </span>
-          </Reveal>
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-midnight via-midnight/20 to-transparent" />          </Reveal>
         </div>
       </section>
 

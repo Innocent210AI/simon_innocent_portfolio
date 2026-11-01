@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className="pointer-events-none absolute inset-0 radial-glow" />
         <div className="shell relative grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <Reveal className="tech-label text-electric text-6xl">About</Reveal>
+            <Reveal className="header-label text-electric">About</Reveal>
             <h1 className="mt-6 display text-arctic">
               
             </h1>
@@ -57,9 +57,6 @@ export default function AboutPage() {
                 decoding="async"
                 className="aspect-[16/7] w-full object-cover opacity-85"
               />
-              <span className="absolute right-3 top-3 rounded-full border border-white/15 bg-midnight/70 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-steel backdrop-blur">
-                Render
-              </span>
             </div>
           </Reveal>
         </div>
@@ -79,7 +76,7 @@ export default function AboutPage() {
               if (!rows.length) return null
               return (
                 <div key={group}>
-                  <h3 className="tech-label text-electric">{group}</h3>
+                  <h3 className="header-label text-electric">{group}</h3>
                   <div className="mt-6 divide-y divide-white/10 border-y border-white/10">
                     {rows.map((e, i) => (
                       <Reveal

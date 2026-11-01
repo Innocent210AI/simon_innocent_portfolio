@@ -26,8 +26,8 @@ export function SectionHeading({
       )}
     >
       {eyebrow && (
-        <span className="tech-label flex items-center gap-2.5 text-electric">
-          <span className="inline-block h-px w-8 bg-electric/60" />
+        <span className="header-label flex items-center gap-4 text-electric">
+          <span className="inline-block h-px w-12 shrink-0 bg-electric/60" />
           {eyebrow}
         </span>
       )}

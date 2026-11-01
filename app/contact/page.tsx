@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div className="pointer-events-none absolute inset-0 grid-texture opacity-60" />
         <div className="pointer-events-none absolute inset-0 radial-glow" />
         <div className="shell relative">
-          <Reveal className="tech-label text-electric">Contact</Reveal>
+          <Reveal className="header-label text-electric">Contact</Reveal>
           <h1 className="mt-6 display max-w-4xl text-arctic">Tell me what you&apos;re building.</h1>
           <Reveal delay={120} className="mt-7 max-w-2xl body-lg text-mist/70">
             I&apos;m open to collaboration, STEM programmes, speaking, research support, and project

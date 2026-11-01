@@ -34,9 +34,9 @@ export async function generateMetadata({
 function Block({ title, items }: { title: string; items?: string[] }) {
   if (!items?.length) return null
   return (
-    <Reveal className="border-t border-white/10 py-10 first:border-t-0">
-      <h2 className="tech-label text-electric">{title}</h2>
-      <div className="mt-5 space-y-4 body-lg text-mist/75">
+    <Reveal className="border-t border-white/10 py-12 first:border-t-0">
+      <h2 className="block-label text-electric">{title}</h2>
+      <div className="mt-6 space-y-4 body-lg text-mist/90">
         {items.map((item) => (
           <p key={item}>{item}</p>
         ))}
@@ -96,6 +96,27 @@ export default async function ProjectDetail({
         </div>
       </section>
 
+      {project.youtubeId && (
+        <section className="border-b border-white/10 py-14 lg:py-20">
+          <div className="shell">
+            <Reveal>
+              <h2 className="block-label text-electric">Watch the video</h2>
+              <div className="mt-6 overflow-hidden rounded-panel border border-white/10 bg-navy-deep">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${project.youtubeId}`}
+                  title={`${project.title} — video`}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className="aspect-video w-full"
+                />
+              </div>
+            </Reveal>
+          </div>
+        </section>
+      )}
+
       <section className="section-y">
         <div className="shell grid gap-14 lg:grid-cols-[1fr_320px] lg:gap-20">
           <div>
@@ -104,12 +125,12 @@ export default async function ProjectDetail({
             <Block title="The approach" items={cs?.solution} />
 
             {cs?.process?.map((group) => (
-              <Reveal key={group.title} className="border-t border-white/10 py-10">
-                <h2 className="tech-label text-electric">{group.title}</h2>
-                <ul className="mt-5 space-y-3">
+              <Reveal key={group.title} className="border-t border-white/10 py-12">
+                <h2 className="block-label text-electric">{group.title}</h2>
+                <ul className="mt-6 space-y-3">
                   {group.items.map((item) => (
-                    <li key={item} className="flex gap-3 text-mist/75">
-                      <span className="mt-2.5 size-1 shrink-0 rounded-full bg-electric" />
+                    <li key={item} className="flex gap-3 body-lg text-mist/90">
+                      <span className="mt-3 size-1.5 shrink-0 rounded-full bg-electric" />
                       <span className="leading-relaxed">{item}</span>
                     </li>
                   ))}
@@ -122,9 +143,9 @@ export default async function ProjectDetail({
             <Block title="Outcome" items={cs?.outcome} />
 
             {cs?.showcases?.length ? (
-              <Reveal className="border-t border-white/10 py-10">
-                <h2 className="tech-label text-electric">Public showcases</h2>
-                <div className="mt-5 grid gap-4 sm:grid-cols-2">
+              <Reveal className="border-t border-white/10 py-12">
+                <h2 className="block-label text-electric">Public showcases</h2>
+                <div className="mt-6 grid gap-4 sm:grid-cols-2">
                   {cs.showcases.map((s) => (
                     <div key={s.title} className="panel-dark p-5">
                       <p className="font-medium text-arctic">{s.title}</p>

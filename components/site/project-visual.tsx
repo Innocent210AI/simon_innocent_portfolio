@@ -54,9 +54,6 @@ export function ProjectVisual({
             className="absolute inset-0 size-full object-cover opacity-85 transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover/visual:scale-[1.04]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-deep via-navy-deep/45 to-navy-deep/10" />
-          <span className="absolute right-3 top-3 rounded-full border border-white/15 bg-midnight/70 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-steel backdrop-blur">
-            Render
-          </span>
         </>
       )}
       <svg
@@ -85,7 +82,7 @@ export function ProjectVisual({
       <div className="pointer-events-none absolute inset-y-0 -left-1/3 w-1/3 bg-gradient-to-r from-transparent via-electric/12 to-transparent animate-scan" />
 
       <div className="absolute inset-0 flex flex-col justify-between p-5">
-        <span className="tech-label max-w-[calc(100%-5rem)] truncate text-electric">
+        <span className="tech-label max-w-full truncate text-electric">
           {project.category}
         </span>
         <div>

@@ -20,6 +20,8 @@ export type Project = {
   skills: string[];
   intendedApplication?: string;
   limitations?: string;
+  /** YouTube video ID, shown as an embedded player on the case-study page. */
+  youtubeId?: string;
   caseStudy?: {
     context?: string[];
     problem?: string[];
@@ -43,6 +45,7 @@ export const projects: Project[] = [
   type: "Individual Project",
   status: "Prototype",
   featured: "flagship",
+  youtubeId: "2Q4g9Ne2dt4",
 
   purpose:
     "A remotely operated robotic prototype developed to explore how robotics and electronics can support security monitoring, inspection, and surveillance activities while reducing direct human exposure to potentially hazardous environments.",
